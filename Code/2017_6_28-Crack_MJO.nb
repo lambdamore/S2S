@@ -3,10 +3,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[         0,          0]
-NotebookDataLength[    169057,       2899]
-NotebookOptionsPosition[    165718,       2808]
-NotebookOutlinePosition[    166685,       2842]
-CellTagsIndexPosition[    166605,       2837]
+NotebookDataLength[    169645,       2912]
+NotebookOptionsPosition[    166203,       2819]
+NotebookOutlinePosition[    167170,       2853]
+CellTagsIndexPosition[    167090,       2848]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2803,7 +2803,18 @@ Cell["desert of predictability", "Text",ExpressionUUID->"704f34ae-0486-44f2-b725
 
 Cell["sudden stratospheric warmings", "Text",ExpressionUUID->"1fea257f-0600-4571-bf27-e21bc008ab0a"],
 
-Cell[" sudden stratospheric warming indices", "Text",ExpressionUUID->"e333bfdd-b8c2-46b1-b412-af0204192734"]
+Cell[" sudden stratospheric warming indices", "Text",ExpressionUUID->"e333bfdd-b8c2-46b1-b412-af0204192734"],
+
+Cell["\<\
+The importance of the tropics in extra-tropical weather forecasting has been
+illustrated by several authors. Early results from Ferranti et al. ( 1990 ) \
+indicated that
+better representation of the MJO led to better mid-latitude forecasts in the \
+northern
+hemisphere, and the benefi t of the connection of the MJO and NAO in intra- \
+seasonal
+forecasting has been demonstrated in Lin et al. ( 2010a ).\
+\>", "Text",ExpressionUUID->"d861b3dc-ae69-4e50-9eeb-a4e5e8f933a2"]
 }, Open  ]]
 },
 WindowSize->{Full, Full},
@@ -2836,7 +2847,7 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"SlideShowHeader", 166110, 2821}
+ {"SlideShowHeader", 166595, 2832}
  }
 *)
 (*NotebookFileOutline
@@ -2892,7 +2903,9 @@ Cell[165393, 2801, 95, 0, 55, "Text", "ExpressionUUID" -> \
 Cell[165491, 2803, 100, 0, 55, "Text", "ExpressionUUID" -> \
 "1fea257f-0600-4571-bf27-e21bc008ab0a"],
 Cell[165594, 2805, 108, 0, 55, "Text", "ExpressionUUID" -> \
-"e333bfdd-b8c2-46b1-b412-af0204192734"]
+"e333bfdd-b8c2-46b1-b412-af0204192734"],
+Cell[165705, 2807, 482, 9, 207, "Text", "ExpressionUUID" -> \
+"d861b3dc-ae69-4e50-9eeb-a4e5e8f933a2"]
 }, Open  ]]
 }
 ]
