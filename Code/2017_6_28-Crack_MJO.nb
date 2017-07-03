@@ -3,10 +3,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[         0,          0]
-NotebookDataLength[    169645,       2912]
-NotebookOptionsPosition[    166203,       2819]
-NotebookOutlinePosition[    167170,       2853]
-CellTagsIndexPosition[    167090,       2848]
+NotebookDataLength[    170237,       2929]
+NotebookOptionsPosition[    166591,       2832]
+NotebookOutlinePosition[    167558,       2866]
+CellTagsIndexPosition[    167478,       2861]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2730,14 +2730,12 @@ A remarkable feature of the atmospheric circulation and moist convection in \
 the tropics is their tendency to be organized at planetary scales and to \
 propagate eastward at an averaged speed of 5 m/s across the equatorial Indian \
 and western/central Pacific oceans, with a local intraseasonal period of 30\
-\[Dash]90 days. (Italicized terms are defined in the glossary, after the main \
-text. Not all terms are explained according to standard meteorological and \
-oceanographic definitions. Instead, the explanations are tailored to this \
-article.) This phenomenon (Figure 1) is known as the Madden-Julian \
-Oscillation (MJO).\
+\[Dash]90 days. This phenomenon  is known as the Madden-Julian Oscillation \
+(MJO).\
 \>", "Text",
- CellChangeTimes->{{3.707700167243806*^9, 
-  3.707700169962392*^9}},ExpressionUUID->"b579ec1e-4924-46ea-834a-\
+ CellChangeTimes->{{3.707700167243806*^9, 3.707700169962392*^9}, {
+  3.7080919739833403`*^9, 
+  3.708091985356436*^9}},ExpressionUUID->"b579ec1e-4924-46ea-834a-\
 0fabc6c67c7f"]
 }, Open  ]]
 }, Open  ]],
@@ -2750,9 +2748,11 @@ Cell["", "SlideShowNavigationBar",
 
 Cell["\<\
 Tropical heat sources generate subtropical Rossby wave vorticity anomalies \
-that are partially re- sponsible for the retraction (extension) of the \
-Pacific jet stream exit region and the formation of PNP anomalies\
-\>", "Text",ExpressionUUID->"6638cc37-37c3-4a8c-a17b-0b5ce6f54ff3"],
+that are partially responsible for the retraction (extension) of the Pacific \
+jet stream exit region and the formation of PNP anomalies\
+\>", "Text",
+ CellChangeTimes->{
+  3.70809200166886*^9},ExpressionUUID->"6638cc37-37c3-4a8c-a17b-0b5ce6f54ff3"],
 
 Cell["\<\
 Wet (dry) events are favored during the phase of the oscillation associated \
@@ -2814,7 +2814,20 @@ northern
 hemisphere, and the benefi t of the connection of the MJO and NAO in intra- \
 seasonal
 forecasting has been demonstrated in Lin et al. ( 2010a ).\
-\>", "Text",ExpressionUUID->"d861b3dc-ae69-4e50-9eeb-a4e5e8f933a2"]
+\>", "Text",ExpressionUUID->"d861b3dc-ae69-4e50-9eeb-a4e5e8f933a2"],
+
+Cell["\<\
+ This type of I-know-it-when-I-see-it, but ill-defined situation is ripe for \
+some machine learnin\
+\>", "Text",ExpressionUUID->"0e7620e3-2ee5-4ef6-931c-38670006e256"],
+
+Cell[TextData[StyleBox["The ensemble forecast is usually evaluated by \
+comparing the average of the individual forecasts for one forecast variable \
+to the observed value of that variable ",
+ FontWeight->"Bold"]], "Text",
+ CellChangeTimes->{{3.708007807898144*^9, 
+  3.708007810070897*^9}},ExpressionUUID->"0ced7d25-004c-42fc-b9a7-\
+fe4e70503603"]
 }, Open  ]]
 },
 WindowSize->{Full, Full},
@@ -2839,7 +2852,7 @@ CellTagsIndex->{
   74, "SlideShowNavigationBar", "ExpressionUUID" -> "d152ec36-95d0-490f-91f4-
    d3484e8aad3c",
    CellTags->"SlideShowHeader"],
-  Cell[163151, 2746, 122, 2, 
+  Cell[162965, 2744, 122, 2, 
   74, "SlideShowNavigationBar", "ExpressionUUID" -> "
    0f424c77-7db5-4201-87ac-097480472964",
    CellTags->"SlideShowHeader"]}
@@ -2847,7 +2860,7 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"SlideShowHeader", 166595, 2832}
+ {"SlideShowHeader", 166983, 2845}
  }
 *)
 (*NotebookFileOutline
@@ -2876,36 +2889,40 @@ Cell[5696, 146, 156425, 2571, 821, "Text", "ExpressionUUID" -> \
 Cell[CellGroupData[{
 Cell[162158, 2722, 161, 3, 63, "Subchapter", "ExpressionUUID" -> \
 "0e6fe0bf-2864-470b-9718-b03d3cd5cd60"],
-Cell[162322, 2727, 780, 13, 245, "Text", "ExpressionUUID" -> \
+Cell[162322, 2727, 594, 11, 169, "Text", "ExpressionUUID" -> \
 "b579ec1e-4924-46ea-834a-0fabc6c67c7f"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[163151, 2746, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" -> \
+Cell[162965, 2744, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" -> \
 "0f424c77-7db5-4201-87ac-097480472964",
  CellTags->"SlideShowHeader"],
-Cell[163276, 2750, 294, 4, 93, "Text", "ExpressionUUID" -> \
+Cell[163090, 2748, 336, 6, 93, "Text", "ExpressionUUID" -> \
 "6638cc37-37c3-4a8c-a17b-0b5ce6f54ff3"],
-Cell[163573, 2756, 227, 3, 93, "Text", "ExpressionUUID" -> \
+Cell[163429, 2756, 227, 3, 93, "Text", "ExpressionUUID" -> \
 "7d3556f7-00b6-4ca3-b72d-2861894a0100"],
-Cell[163803, 2761, 280, 4, 93, "Text", "ExpressionUUID" -> \
+Cell[163659, 2761, 280, 4, 93, "Text", "ExpressionUUID" -> \
 "803bbaeb-5f86-459c-8685-fd1bf92e08ce"],
-Cell[164086, 2767, 409, 8, 131, "Text", "ExpressionUUID" -> \
+Cell[163942, 2767, 409, 8, 131, "Text", "ExpressionUUID" -> \
 "bdfeffcf-72f4-4a97-80f8-8b4c13a20073"],
-Cell[164498, 2777, 167, 3, 55, "Text", "ExpressionUUID" -> \
+Cell[164354, 2777, 167, 3, 55, "Text", "ExpressionUUID" -> \
 "bbbf6e49-9431-4aa0-8e14-8312ec53642f"],
-Cell[164668, 2782, 307, 6, 207, "Text", "ExpressionUUID" -> \
+Cell[164524, 2782, 307, 6, 207, "Text", "ExpressionUUID" -> \
 "b31c6f53-1ca2-4450-ad63-6d4713ab796c"],
-Cell[164978, 2790, 412, 9, 321, "Text", "ExpressionUUID" -> \
+Cell[164834, 2790, 412, 9, 321, "Text", "ExpressionUUID" -> \
 "0f5743af-6892-416e-b42f-8b5dfe5819db"],
-Cell[165393, 2801, 95, 0, 55, "Text", "ExpressionUUID" -> \
+Cell[165249, 2801, 95, 0, 55, "Text", "ExpressionUUID" -> \
 "704f34ae-0486-44f2-b725-1dbc7f730af8"],
-Cell[165491, 2803, 100, 0, 55, "Text", "ExpressionUUID" -> \
+Cell[165347, 2803, 100, 0, 55, "Text", "ExpressionUUID" -> \
 "1fea257f-0600-4571-bf27-e21bc008ab0a"],
-Cell[165594, 2805, 108, 0, 55, "Text", "ExpressionUUID" -> \
+Cell[165450, 2805, 108, 0, 55, "Text", "ExpressionUUID" -> \
 "e333bfdd-b8c2-46b1-b412-af0204192734"],
-Cell[165705, 2807, 482, 9, 207, "Text", "ExpressionUUID" -> \
-"d861b3dc-ae69-4e50-9eeb-a4e5e8f933a2"]
+Cell[165561, 2807, 482, 9, 207, "Text", "ExpressionUUID" -> \
+"d861b3dc-ae69-4e50-9eeb-a4e5e8f933a2"],
+Cell[166046, 2818, 178, 3, 55, "Text", "ExpressionUUID" -> \
+"0e7620e3-2ee5-4ef6-931c-38670006e256"],
+Cell[166227, 2823, 348, 6, 93, "Text", "ExpressionUUID" -> \
+"0ced7d25-004c-42fc-b9a7-fe4e70503603"]
 }, Open  ]]
 }
 ]
