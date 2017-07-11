@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     97277,       2086]
-NotebookOptionsPosition[     94716,       2014]
-NotebookOutlinePosition[     95681,       2048]
-CellTagsIndexPosition[     95602,       2043]
+NotebookDataLength[    238277,       5498]
+NotebookOptionsPosition[    233271,       5367]
+NotebookOutlinePosition[    234396,       5405]
+CellTagsIndexPosition[    234316,       5400]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2000,16 +2000,3369 @@ Cell[BoxData[
   3.7087187399745092`*^9}},ExpressionUUID->"1b54ec8c-e4de-41b4-8b04-\
 836dca8b9cfc"],
 
-Cell[BoxData[
+Cell[BoxData[{
  RowBox[{
-  RowBox[{"test", "=", 
+  RowBox[{"test2", "=", 
    RowBox[{"SequentialDetection", "[", 
     RowBox[{"{", 
-     RowBox[{"1958", ",", "1", ",", "1"}], "}"}], "]"}]}], ";"}]], "Code",
+     RowBox[{"1967", ",", "1", ",", "1"}], "}"}], "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{"\"\<1967cross.txt\>\"", ",", "test2", ",", "\"\<List\>\""}], 
+   "]"}], ";"}]}], "Code",
  CellChangeTimes->{{3.7087186447369137`*^9, 3.708718679454504*^9}, {
-  3.7087187833767548`*^9, 
-  3.708718783730699*^9}},ExpressionUUID->"4366a13b-f91f-4ac8-ad14-\
-dd741101c7f3"]
+  3.7087187833767548`*^9, 3.708718783730699*^9}, {3.708721388770788*^9, 
+  3.7087214103193693`*^9}, {3.708731576549067*^9, 3.708731587873741*^9}, {
+  3.708734579135222*^9, 
+  3.7087345809737988`*^9}},ExpressionUUID->"4366a13b-f91f-4ac8-ad14-\
+dd741101c7f3"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"test3", "=", 
+   RowBox[{"SequentialDetection", "[", 
+    RowBox[{"{", 
+     RowBox[{"1968", ",", "1", ",", "1"}], "}"}], "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{"\"\<1968cross.txt\>\"", ",", "test3", ",", "\"\<List\>\""}], 
+   "]"}], ";"}]}], "Code",
+ CellChangeTimes->{{3.7087186447369137`*^9, 3.708718679454504*^9}, {
+  3.7087187833767548`*^9, 3.708718783730699*^9}, {3.708721388770788*^9, 
+  3.708721422782075*^9}, {3.708731578394478*^9, 3.708731598552361*^9}, {
+  3.708734583348859*^9, 
+  3.7087345858301487`*^9}},ExpressionUUID->"75f99245-c4a6-45d2-86ac-\
+d979c857b19d"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"test4", "=", 
+   RowBox[{"SequentialDetection", "[", 
+    RowBox[{"{", 
+     RowBox[{"1969", ",", "1", ",", "1"}], "}"}], "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{"\"\<1969cross.txt\>\"", ",", "test4", ",", "\"\<List\>\""}], 
+   "]"}], ";"}]}], "Code",
+ CellChangeTimes->{{3.7087186447369137`*^9, 3.708718679454504*^9}, {
+  3.7087187833767548`*^9, 3.708718783730699*^9}, {3.708721388770788*^9, 
+  3.708721434488441*^9}, {3.708731580618401*^9, 3.708731592089725*^9}, {
+  3.708735204194656*^9, 
+  3.708735206848137*^9}},ExpressionUUID->"ffdd4660-1a26-433c-a880-\
+bef0a36d2057"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"test5", "=", 
+   RowBox[{"SequentialDetection", "[", 
+    RowBox[{"{", 
+     RowBox[{"1966", ",", "1", ",", "1"}], "}"}], "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{"\"\<1966cross.txt\>\"", ",", "test5", ",", "\"\<List\>\""}], 
+   "]"}], ";"}]}], "Code",
+ CellChangeTimes->{{3.7087186447369137`*^9, 3.708718679454504*^9}, {
+  3.7087187833767548`*^9, 3.708718783730699*^9}, {3.708721388770788*^9, 
+  3.708721442991982*^9}, {3.708731582921887*^9, 
+  3.708731593609597*^9}},ExpressionUUID->"081aa622-308a-4121-a7e1-\
+baadb33b6eca"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Dimensions", "[", 
+  RowBox[{"test", "[", 
+   RowBox[{"[", "1", "]"}], "]"}], "]"}]], "Code",
+ CellChangeTimes->{{3.7087364313779297`*^9, 3.708736439494875*^9}, {
+  3.708736876723239*^9, 
+  3.708736878278126*^9}},ExpressionUUID->"96f7aee8-d270-4e4a-84bc-\
+b4224018959d"],
+
+Cell[BoxData[
+ RowBox[{"{", "3", "}"}]], "Output",
+ CellChangeTimes->{{3.708736875035306*^9, 
+  3.7087368785941763`*^9}},ExpressionUUID->"0dd80d68-64a7-4ce4-94ea-\
+57b48fa19a66"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"test", "[", 
+  RowBox[{"[", "1", "]"}], "]"}]], "Code",
+ CellChangeTimes->{{3.708736897518889*^9, 
+  3.7087368987735777`*^9}},ExpressionUUID->"d24ab4c0-c756-46ba-ba56-\
+2e77bf8418bd"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "1.`", ",", "1", ",", "58", ",", "1", ",", "1", ",", "0", ",", "16", 
+       ",", "1", ",", "1", ",", "993.97`", ",", "4.89`", ",", 
+       RowBox[{"-", "999.`"}], ",", 
+       RowBox[{"-", "999.`"}], ",", "45.75`", ",", "220.76`", ",", "22", ",", 
+       "24", ",", "0", ",", "0", ",", "3"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "1.25`", ",", "2", ",", "58", ",", "1", ",", "1", ",", "6", ",", "15", 
+       ",", "1", ",", "0", ",", "990.56`", ",", "8.27`", ",", "586.73`", ",", 
+       
+       RowBox[{"-", "3.41`"}], ",", "50.68`", ",", "217.88`", ",", "23", ",", 
+       "26", ",", "0", ",", "0", ",", "3"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "1.5`", ",", "3", ",", "58", ",", "1", ",", "1", ",", "12", ",", "15", 
+       ",", "1", ",", "0", ",", "987.98`", ",", "9.22`", ",", "253.91`", ",", 
+       
+       RowBox[{"-", "2.58`"}], ",", "52.54`", ",", "220.03`", ",", "24", ",", 
+       "26", ",", "0", ",", "0", ",", "3"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "1.75`", ",", "4", ",", "58", ",", "1", ",", "1", ",", "18", ",", "13", 
+       ",", "1", ",", "0", ",", "985.38`", ",", "7.76`", ",", "247.89`", ",", 
+       
+       RowBox[{"-", "2.6`"}], ",", "54.02`", ",", "217.24`", ",", "24", ",", 
+       "27", ",", "0", ",", "0", ",", "3"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "2.`", ",", "5", ",", "58", ",", "1", ",", "2", ",", "0", ",", "16", 
+       ",", "1", ",", "0", ",", "981.75`", ",", "17.22`", ",", "369.59`", ",", 
+       RowBox[{"-", "3.63`"}], ",", "57.32`", ",", "216.47`", ",", "25", ",", 
+       "28", ",", "0", ",", "0", ",", "3"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "2.25`", ",", "6", ",", "58", ",", "1", ",", "2", ",", "6", ",", "13", 
+       ",", "1", ",", "0", ",", "978.47`", ",", "20.59`", ",", "493.26`", ",", 
+       RowBox[{"-", "3.28`"}], ",", "59.88`", ",", "209.48`", ",", "25", ",", 
+       "30", ",", "0", ",", "0", ",", "3"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "2.5`", ",", "7", ",", "58", ",", "1", ",", "2", ",", "12", ",", "13", 
+       ",", "1", ",", "0", ",", "980.57`", ",", "11.09`", ",", "0.`", ",", 
+       "2.1`", ",", "59.88`", ",", "209.48`", ",", "25", ",", "30", ",", "0", 
+       ",", "0", ",", "3"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "2.75`", ",", "8", ",", "58", ",", "1", ",", "2", ",", "18", ",", "14", 
+       ",", "1", ",", "0", ",", "982.76`", ",", "7.13`", ",", "245.54`", ",", 
+       "2.18`", ",", "60.95`", ",", "205.56`", ",", "25", ",", "31", ",", "0",
+        ",", "0", ",", "3"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "3.`", ",", "9", ",", "58", ",", "1", ",", "3", ",", "0", ",", "9", ",",
+        "1", ",", "0", ",", "986.79`", ",", "5.62`", ",", "557.66`", ",", 
+       "4.03`", ",", "57.49`", ",", "198.43`", ",", "23", ",", "32", ",", "0",
+        ",", "1", ",", "3"}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "3.75`", ",", "12", ",", "58", ",", "1", ",", "3", ",", "18", ",", "16",
+        ",", "1", ",", "0", ",", "986.11`", ",", "14.4`", ",", 
+       RowBox[{"-", "999.`"}], ",", 
+       RowBox[{"-", "999.`"}], ",", "57.65`", ",", "222.14`", ",", "26", ",", 
+       "27", ",", "1", ",", "0", ",", "48"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "4.`", ",", "13", ",", "58", ",", "1", ",", "4", ",", "0", ",", "17", 
+       ",", "1", ",", "0", ",", "987.24`", ",", "12.94`", ",", "0.`", ",", 
+       "1.13`", ",", "57.65`", ",", "222.14`", ",", "26", ",", "27", ",", "0",
+        ",", "0", ",", "48"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "4.25`", ",", "14", ",", "58", ",", "1", ",", "4", ",", "6", ",", "17", 
+       ",", "1", ",", "0", ",", "986.3`", ",", "27.15`", ",", "575.69`", ",", 
+       
+       RowBox[{"-", "0.94`"}], ",", "62.64`", ",", "225.`", ",", "28", ",", 
+       "28", ",", "0", ",", "0", ",", "48"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "4.5`", ",", "15", ",", "58", ",", "1", ",", "4", ",", "12", ",", "14", 
+       ",", "1", ",", "0", ",", "991.`", ",", "25.49`", ",", "343.73`", ",", 
+       "4.7`", ",", "62.45`", ",", "231.71`", ",", "29", ",", "27", ",", "0", 
+       ",", "1", ",", "48"}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "4.75`", ",", "16", ",", "58", ",", "1", ",", "4", ",", "18", ",", "13",
+        ",", "1", ",", "0", ",", "991.67`", ",", "8.67`", ",", 
+       RowBox[{"-", "999.`"}], ",", 
+       RowBox[{"-", "999.`"}], ",", "61.88`", ",", "248.63`", ",", "32", ",", 
+       "25", ",", "1", ",", "0", ",", "62"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "5.`", ",", "17", ",", "58", ",", "1", ",", "5", ",", "0", ",", "13", 
+       ",", "1", ",", "0", ",", "991.13`", ",", "11.8`", ",", "767.53`", ",", 
+       
+       RowBox[{"-", "0.54`"}], ",", "61.32`", ",", "263.16`", ",", "35", ",", 
+       "24", ",", "0", ",", "0", ",", "62"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "5.25`", ",", "18", ",", "58", ",", "1", ",", "5", ",", "6", ",", "15", 
+       ",", "1", ",", "0", ",", "988.96`", ",", "13.55`", ",", "242.49`", ",", 
+       RowBox[{"-", "2.17`"}], ",", "61.51`", ",", "267.71`", ",", "36", ",", 
+       "24", ",", "0", ",", "0", ",", "62"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "5.5`", ",", "19", ",", "58", ",", "1", ",", "5", ",", "12", ",", "13", 
+       ",", "1", ",", "0", ",", "984.41`", ",", "18.55`", ",", "354.11`", ",", 
+       RowBox[{"-", "4.55`"}], ",", "59.18`", ",", "272.12`", ",", "37", ",", 
+       "23", ",", "0", ",", "0", ",", "62"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "5.75`", ",", "20", ",", "58", ",", "1", ",", "5", ",", "18", ",", "13",
+        ",", "1", ",", "0", ",", "979.93`", ",", "22.04`", ",", "765.66`", 
+       ",", 
+       RowBox[{"-", "4.48`"}], ",", "60.41`", ",", "285.64`", ",", "40", ",", 
+       "24", ",", "0", ",", "0", ",", "62"}], "}"}]}], "}"}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{
+  3.70873689910914*^9},ExpressionUUID->"75d8f6e7-f171-49a1-8f4b-0c59ab6652c4"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Dimensions", "[", "centers", "]"}]], "Code",
+ CellChangeTimes->{{3.7087373400892982`*^9, 
+  3.708737347861589*^9}},ExpressionUUID->"e066e854-0e0b-442d-baad-\
+60365f995006"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"3", ",", "73", ",", "3"}], "}"}]], "Output",
+ CellChangeTimes->{{3.708737342232305*^9, 
+  3.70873734815692*^9}},ExpressionUUID->"9c546fb5-8845-443f-9a6c-\
+3266d500ae58"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Append", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", "4"}], "]"}]], "Code",
+ CellChangeTimes->{{3.708737357752735*^9, 
+  3.708737365086649*^9}},ExpressionUUID->"9bf41f43-a282-4288-8d99-\
+00d2fda67c1a"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"1", ",", "2", ",", "3", ",", "4"}], "}"}]], "Output",
+ CellChangeTimes->{{3.708737362384489*^9, 
+  3.708737365431283*^9}},ExpressionUUID->"f178dd82-1291-424c-a3f1-\
+f3e803af7d1a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"centers", "[", 
+   RowBox[{"[", 
+    RowBox[{"1", ",", "1"}], "]"}], "]"}], "[", 
+  RowBox[{"[", 
+   RowBox[{"1", ";;", "2"}], "]"}], "]"}]], "Code",
+ CellChangeTimes->{{3.708737467501425*^9, 
+  3.7087374762424383`*^9}},ExpressionUUID->"514cff04-c699-4b0c-ad42-\
+5ade9f717e08"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"50.47520065307617`", ",", "232.5`"}], "}"}]], "Output",
+ CellChangeTimes->{{3.7087374698214617`*^9, 
+  3.708737476533156*^9}},ExpressionUUID->"e921d8d5-e124-44ad-a2e2-\
+8c4b796a2622"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"PointSize", "[", "0.1", "]"}], ",", 
+    RowBox[{"Point", "[", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "2"}], "}"}], "]"}]}], "}"}], "]"}]], "Code",
+ CellChangeTimes->{{3.7087373864158077`*^9, 
+  3.708737449534821*^9}},ExpressionUUID->"1256cd34-ddfd-4df6-98a1-\
+60a8f62f57dc"],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {PointSize[0.1], PointBox[{1, 2}]}}]], "Output",
+ CellChangeTimes->{{3.70873739358941*^9, 
+  3.708737449845326*^9}},ExpressionUUID->"cbffab4c-4cfc-442b-886b-\
+e7b115e363cf"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\n", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"Show", "[", 
+     RowBox[{
+      RowBox[{"Append", "[", 
+       RowBox[{
+        RowBox[{"Table", "[", 
+         RowBox[{
+          RowBox[{"ListLinePlot", "[", 
+           RowBox[{"Map", "[", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"#", "[", 
+                 RowBox[{"[", "14", "]"}], "]"}], ",", 
+                RowBox[{"#", "[", 
+                 RowBox[{"[", "15", "]"}], "]"}]}], "}"}], "&"}], ",", 
+             RowBox[{"test", "[", 
+              RowBox[{"[", 
+               RowBox[{"day", ",", "i"}], "]"}], "]"}]}], "]"}], "]"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"i", ",", 
+            RowBox[{"Length", "[", 
+             RowBox[{"test", "[", 
+              RowBox[{"[", "day", "]"}], "]"}], "]"}]}], "}"}]}], "]"}], ",", 
+        "\n", "\t\t ", 
+        RowBox[{"Graphics", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"PointSize", "[", "0.06", "]"}], ",", 
+           RowBox[{"Point", "[", 
+            RowBox[{
+             RowBox[{"centers", "[", 
+              RowBox[{"[", 
+               RowBox[{"1", ",", "day"}], "]"}], "]"}], "[", 
+             RowBox[{"[", 
+              RowBox[{"1", ";;", "2"}], "]"}], "]"}], "]"}]}], "}"}], "]"}]}],
+        "]"}], ",", "\n", "\t\t ", 
+      RowBox[{"PlotRange", "\[Rule]", "All"}]}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"day", ",", "31", ",", "60"}], "}"}]}], "]"}]}]], "Code",
+ CellChangeTimes->{{3.7087367416355467`*^9, 3.7087367429363203`*^9}, {
+  3.708736790287036*^9, 3.7087370002802887`*^9}, {3.7087370611907873`*^9, 
+  3.708737064424489*^9}, {3.708737108270262*^9, 3.70873714694984*^9}, {
+  3.70873736803069*^9, 3.708737384527017*^9}, {3.708737452116892*^9, 
+  3.708737613864026*^9}},ExpressionUUID->"60a8c601-12c7-4d21-beb5-\
+9da524dac824"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{40.52, 246.45}, {41.7, 242.82}, {40.52, 246.45}, {40.52, 
+            246.45}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{53.42, 237.8}, {53.42, 237.8}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{53.42, 237.8}, {51.38, 239.62}, {52.54, 242.65}, {52.54, 
+            242.65}, {52.54, 242.65}, {52.54, 242.65}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{42.42, 225.}, {40.64, 226.91}, {42.3, 228.95}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{69.16, 247.62}, {69.16, 247.62}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{40.52, 246.45}, {40.52, 246.45}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{62.64, 225.}, {62.64, 225.}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{49.98, 251.57}, {52.24, 250.46}, {50.68, 254.74}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{42.3, 228.95}, {42.3, 228.95}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{42.78, 245.32}, {42.78, 245.32}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{53.42, 237.8}, {53.42, 237.8}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{40.52, 246.45}, {40.52, 246.45}, {42.78, 245.32}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{62.64, 225.}, {62.64, 225.}, {62.64, 225.}, {62.64, 
+            225.}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{54.63, 240.95}, {54.63, 240.95}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[
+           LineBox[{{43.39, 214.88}, {41.94, 217.15}, {42.3, 221.05}, {38.8, 
+            221.31}, {37.11, 223.21}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{62.64, 225.}, {62.64, 225.}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{52.37990188598633, 251.25}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{40.501562500000006`, 242.76328124999998`},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{59.88, 240.52}, {56.67, 239.04}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{44.74, 237.53}, {44.74, 237.53}, {41.7, 242.82}, {41.7, 
+            242.82}, {43.88, 241.5}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{68.19, 242.1}, {66.13, 244.65}, {64.03, 246.8}, {61.88, 
+            248.63}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{47.3, 231.58}, {50.12, 236.77}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{30.18, 247.99}, {27.75, 248.81}, {25.27, 249.57}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{40.52, 246.45}, {40.52, 246.45}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{52.54, 242.65}, {52.54, 242.65}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{54.63, 240.95}, {54.63, 240.95}, {54.63, 240.95}, {53.57,
+             245.85}, {52.54, 242.65}, {52.24, 250.46}, {50.68, 254.74}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{42.78, 245.32}, {42.78, 245.32}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{60.95, 221.82}, {62.45, 218.29}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{42.85639953613281, 236.25}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{56.61984375000001, 239.01687500000003`},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{62.64, 225.}, {62.64, 225.}, {62.64, 225.}, {62.64, 
+            225.}, {62.64, 225.}, {62.64, 225.}, {62.64, 225.}, {62.64, 
+            225.}, {62.64, 225.}, {62.64, 225.}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{38.23, 247.48}, {38.23, 247.48}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{51.38, 239.62}, {51.38, 239.62}, {51.38, 239.62}, {51.38,
+             239.62}, {53.42, 237.8}, {51.38, 239.62}, {51.38, 239.62}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{39.48, 244.03}, {39.48, 244.03}, {40.52, 246.45}, {40.52,
+             246.45}, {40.52, 246.45}, {40.52, 246.45}, {41.46, 248.96}, {
+            42.78, 245.32}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{38.23, 247.48}, {39.94, 252.41}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{59.88, 240.52}, {59.88, 240.52}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{31.11, 250.11}, {31.11, 250.11}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{48.570499420166016`, 245.625}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{0, 0},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{60.95, 244.44}, {60.95, 244.44}, {60.95, 244.44}, {60.95,
+             244.44}, {60.95, 244.44}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{37.89, 235.95}, {37.89, 235.95}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{43.39, 235.12}, {43.39, 235.12}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{57.82, 242.53}, {55.71, 244.29}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{31.11, 250.11}, {30.18, 247.99}, {30.18, 247.99}, {28.65,
+             250.87}, {30.18, 247.99}, {30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{50.12, 236.77}, {49.3, 241.26}, {50.12, 236.77}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{39.48, 244.03}, {39.48, 244.03}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{52.37990188598633, 251.25}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{0, 0},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{40.52, 246.45}, {40.52, 246.45}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{40.52, 246.45}, {40.52, 246.45}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{67.48, 229.09}, {67.48, 229.09}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{41.7, 242.82}, {40.52, 246.45}, {42.78, 245.32}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{56.67, 239.04}, {53.42, 237.8}, {53.42, 237.8}, {53.42, 
+            237.8}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{65.7125015258789, 219.375}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{0, 0},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[CompressedData["
+1:eJxTTMoPSmViYGAQAWIQ/U0jpv/QVi+HWTOBYGeuA5gf6uPwsEpknftDwnxN
+IPfrCx8IHZDnUA0SvuUNke/Mg4if8HIwBoHdmHwQV8PG2wFExajnO8i3vg7c
+IecFof0I8225ri8u+OvhAKJsi0jXTykfACcokAw=
+            "]],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{34.91, 246.16}, {34.91, 246.16}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{28.65, 250.87}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{62.64, 225.}, {62.64, 225.}, {64.23, 221.42}, {62.64, 
+            225.}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{27.75, 248.81}, {30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{43.88, 241.5}, {43.88, 241.5}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{64.23, 228.58}, {64.23, 228.58}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{30.18, 247.99}, {30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{40.52, 246.45}, {40.52, 246.45}}],
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{59.88, 240.52}, {59.88, 240.52}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{52.37990188598633, 241.875}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{49.8575, 237.58484375000003`},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{53.57, 245.85}, {52.24, 250.46}, {52.97, 253.81}, {52.97,
+             253.81}, {52.97, 253.81}, {52.97, 253.81}, {52.97, 253.81}, {
+            52.97, 253.81}, {52.97, 253.81}, {51.67, 261.38}, {51.67, 
+            261.38}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{62.64, 225.}, {62.64, 225.}, {62.64, 225.}, {62.64, 
+            225.}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{40.52, 246.45}, {40.52, 246.45}, {40.52, 246.45}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{40.52, 246.45}, {40.52, 246.45}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[LineBox[{{55.4, 235.78}, {56.67, 239.04}, {53.42, 237.8}}],
+           
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{30.18, 247.99}, {30.18, 247.99}, {27.75, 248.81}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{52.54, 242.65}, {52.54, 242.65}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{56.67, 239.04}, {56.67, 239.04}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{53.42, 237.8}, {53.42, 237.8}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{54.28459930419922, 236.25}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{51.64031250000001, 245.60734375},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{50.12, 236.77}, {50.12, 236.77}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{50.12, 236.77}, {50.12, 236.77}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{62.64, 225.}, {62.64, 225.}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{50.12, 236.77}, {50.12, 236.77}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{58.66, 236.89}, {58.66, 236.89}, {58.66, 236.89}, {56.67,
+             239.04}, {56.67, 239.04}, {54.63, 240.95}, {52.54, 242.65}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{41.7, 242.82}, {41.7, 242.82}, {40.52, 246.45}, {40.52, 
+            246.45}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{62.64, 225.}, {62.64, 225.}, {62.64, 225.}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{56.67, 239.04}, {56.67, 239.04}, {57.82, 242.53}, {55.71,
+             244.29}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{63.807899475097656`, 221.25}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{0, 0},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{62.64, 225.}, {62.64, 225.}, {64.23, 221.42}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{54.47, 249.23}, {54.47, 249.23}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{30.18, 247.99}, {32.57, 247.11}, {31.52, 244.98}, {32.57,
+             247.11}, {30.18, 247.99}, {32.57, 247.11}, {32.57, 247.11}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{56.67, 239.04}, {56.67, 239.04}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{67.02, 212.9}, {64.23, 228.58}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{58.66, 236.89}, {57.82, 242.53}, {59.88, 240.52}, {57.82,
+             242.53}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{38.23, 247.48}, {34.91, 246.16}, {38.23, 247.48}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{69.16, 225.}, {69.16, 225.}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{59.998600006103516`, 234.375}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{0, 0},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{39.48, 244.03}, {39.48, 244.03}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{59.88, 240.52}, {59.88, 240.52}, {59.88, 240.52}, {57.82,
+             242.53}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{39.48, 244.03}, {39.48, 244.03}, {40.52, 246.45}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{55.71, 244.29}, {54.47, 249.23}, {52.24, 250.46}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{39.48, 244.03}, {40.52, 246.45}, {40.52, 246.45}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{41.7, 242.82}, {42.78, 245.32}, {42.78, 245.32}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{32.57, 247.11}, {32.57, 247.11}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{63.82, 235.62}, {65.06, 239.93}, {63.03, 242.35}, {60.95,
+             244.44}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{32.57, 247.11}, {32.57, 247.11}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{54.28459930419922, 238.125}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{0, 0},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{67.48, 220.91}, {67.48, 220.91}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{59.88, 240.52}, {59.88, 240.52}, {60.95, 244.44}, {59.7, 
+            250.2}, {61.88, 248.63}, {61.88, 248.63}, {61.88, 248.63}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{39.25, 238.13}, {37.22, 245.14}, {39.48, 244.03}, {39.48,
+             244.03}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{27.75, 248.81}, {28.65, 250.87}, {30.18, 247.99}, {30.18,
+             247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{39.48, 244.03}, {39.48, 244.03}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{41.7, 242.82}, {41.7, 242.82}}],
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{41.7, 242.82}, {42.78, 245.32}, {42.78, 245.32}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{41.7, 242.82}, {41.7, 242.82}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{61.90330123901367, 249.375}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{0, 0},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{69.16, 225.}, {69.16, 225.}, {69.16, 225.}, {69.16, 
+            225.}, {68.92, 233.75}, {68.92, 233.75}, {70.71, 229.76}, {70.71, 
+            229.76}, {70.71, 229.76}, {72.4, 225.}, {72.4, 225.}, {72.4, 
+            225.}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{39.48, 244.03}, {39.48, 244.03}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{57.82, 242.53}, {57.82, 242.53}, {57.82, 242.53}, {57.82,
+             242.53}, {57.82, 242.53}, {57.82, 242.53}, {58.83, 246.25}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{27.75, 248.81}, {30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[LineBox[{{48.09, 238.5}, {46.78, 235.89}, {48.09, 238.5}}],
+           
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{42.66, 239.04}, {42.66, 239.04}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{32.57, 247.11}, {32.57, 247.11}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{65.7, 232.6}, {65.7, 232.6}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{65.7125015258789, 223.125}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{68.86562500000001, 224.86328125},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{63.82, 235.62}, {61.88, 238.24}, {63.03, 242.35}, {63.03,
+             242.35}, {63.03, 242.35}, {63.03, 242.35}, {63.03, 242.35}, {
+            61.88, 248.63}, {60.95, 258.69}, {59.18, 267.88}, {59.18, 
+            272.12}, {59.18, 272.12}, {59., 276.34}, {58.66, 280.49}, {59., 
+            276.34}, {57.49, 288.43}, {52.54, 297.35}, {51.38, 300.38}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{61.88, 248.63}, {61.88, 248.63}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{52.68, 225.}, {52.68, 225.}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{27.75, 248.81}, {30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{54.63, 240.95}, {54.63, 240.95}, {53.57, 245.85}, {55.71,
+             244.29}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{61.90330123901367, 243.75}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{51.185625, 234.608125},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{54.47, 249.23}, {55.24, 252.76}, {55.24, 252.76}, {57.49,
+             251.57}, {55.87, 256.43}, {55.87, 256.43}, {56.35, 260.22}, {
+            56.35, 260.22}, {54.32, 264.47}, {54.32, 264.47}, {54.47, 
+            268.15}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {32.57, 247.11}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{59.88, 240.52}, {60.59, 234.46}, {58.66, 236.89}, {59.88,
+             240.52}, {59.88, 240.52}, {59.88, 240.52}, {59.88, 240.52}, {
+            60.95, 244.44}, {61.88, 248.63}, {62.64, 253.07}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{39.25, 238.13}, {40.52, 240.42}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{52.68, 225.}, {52.68, 225.}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{52.24, 250.46}, {52.24, 250.46}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{54.28459930419922, 230.625}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{54.27046875000001, 248.93437500000002`},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{52.68, 225.}, {52.68, 225.}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{52.24, 250.46}, {52.24, 250.46}, {52.97, 253.81}, {51.24,
+             258.02}, {49.3, 261.87}, {47.17, 265.36}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{37.11, 223.21}, {37.11, 223.21}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{30.18, 247.99}, {30.18, 247.99}, {30.18, 247.99}, {30.18,
+             247.99}, {32.57, 247.11}, {30.18, 247.99}, {32.57, 247.11}, {
+            30.18, 247.99}, {34.91, 246.16}, {32.57, 247.11}, {34.91, 
+            246.16}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{55.4, 214.22}, {52.1, 215.13}, {52.1, 215.13}, {52.1, 
+            215.13}, {52.1, 215.13}, {52.1, 215.13}, {48.76, 215.91}, {48.76, 
+            215.91}, {50.68, 217.88}, {50.68, 217.88}, {52.54, 220.03}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[
+           LineBox[{{52.24, 250.46}, {52.24, 250.46}, {52.97, 253.81}, {51.24,
+             258.02}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{30.18, 247.99}, {30.18, 247.99}, {32.57, 247.11}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{58.66, 236.89}, {58.66, 236.89}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{54.28459930419922, 230.625}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{0, 0},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {32.57, 247.11}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{54.47, 249.23}, {52.24, 250.46}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{67.48, 229.09}, {67.48, 229.09}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {32.57, 247.11}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{42.78, 245.32}, {42.78, 245.32}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{40.52, 240.42}, {40.52, 240.42}, {37.89, 235.95}, {42.66,
+             239.04}, {42.78, 245.32}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{65.7, 232.6}, {65.7, 232.6}, {65.06, 239.93}, {65.06, 
+            239.93}, {65.06, 239.93}, {65.06, 239.93}, {65.06, 239.93}, {
+            63.03, 242.35}, {62.64, 253.07}, {60.95, 258.69}, {61.32, 
+            263.16}, {61.32, 263.16}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {27.75, 248.81}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{54.47, 249.23}, {54.47, 249.23}, {55.24, 252.76}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{37.11, 239.47}, {37.11, 239.47}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {27.75, 248.81}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{65.7125015258789, 230.625}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{30.14265625, 247.09625},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{51.38, 247.25}, {51.38, 247.25}, {51.38, 247.25}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{27.75, 248.81}, {30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{56.67, 239.04}, {56.67, 239.04}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{57.82, 242.53}, {57.82, 242.53}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{39.48, 244.03}, {39.48, 244.03}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{51.38, 247.25}, {49.16, 248.5}, {49.98, 251.57}, {49.98, 
+            251.57}, {50.68, 254.74}, {46.52, 259.29}, {48.89, 258.69}, {49.3,
+             261.87}, {47.17, 265.36}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{40.52, 246.45}, {40.52, 246.45}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{47.17, 242.74}, {47.17, 242.74}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{58.66, 236.89}, {56.67, 239.04}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{49.3, 241.26}, {49.3, 241.26}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{56.67, 239.04}, {56.67, 239.04}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{58.09389877319336, 226.875}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{0, 0},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{57.82, 242.53}, {57.82, 242.53}, {56.67, 247.83}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{67.48, 220.91}, {67.48, 229.09}, {67.48, 229.09}, {65.06,
+             239.93}, {65.06, 239.93}, {63.03, 242.35}, {63.03, 242.35}, {
+            63.03, 242.35}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{42.66, 239.04}, {42.66, 239.04}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{52.24, 250.46}, {52.24, 250.46}, {52.97, 253.81}, {50.68,
+             254.74}, {48.89, 258.69}, {49.3, 261.87}, {49.57, 265.1}, {49.71,
+             268.36}, {49.71, 271.64}, {51.67, 278.62}, {52.97, 286.19}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {32.57, 247.11}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{61.88, 248.63}, {61.88, 248.63}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{51.38, 210.38}, {52.1, 215.13}, {52.54, 220.03}, {52.54, 
+            220.03}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{32.57, 247.11}, {32.57, 247.11}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{65.7125015258789, 230.625}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{56.65203125000001, 242.4471875},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{46.01, 193.67}, {47.69, 197.45}, {49.16, 201.5}, {51.38, 
+            210.38}, {52.1, 215.13}, {52.54, 220.03}, {52.68, 225.}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{52.68, 225.}, {52.54, 229.97}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{54.63, 240.95}, {54.63, 240.95}, {54.63, 240.95}, {53.57,
+             245.85}, {53.57, 245.85}, {57.82, 242.53}, {59.88, 240.52}, {
+            59.88, 240.52}, {60.95, 244.44}, {60.95, 244.44}, {61.88, 
+            248.63}, {61.88, 248.63}, {64.03, 246.8}, {64.85, 251.57}, {61.88,
+             248.63}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{27.75, 248.81}, {30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{55.4, 235.78}, {54.63, 240.95}, {53.57, 245.85}, {52.24, 
+            250.46}, {52.97, 253.81}, {53.57, 257.28}, {54.02, 260.84}, {
+            54.32, 264.47}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{40.52, 246.45}, {40.52, 246.45}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{61.90330123901367, 240.}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{45.90578125, 193.18046875},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[CompressedData["
+1:eJxTTMoPSmViYGAQBmIQXWjLdX3xBz+HJQVAhnamA4Tv69B/6KtGjH6Ww5vA
+HXKt3n4OD6tE1rl/xORfXwzUON3XwQMkEJ/tMGsmEFT6OXCBJHZlw9XLt74O
+3OGXCzcfTAvkEeSDzbvp65AGAm75BPnGICDsC3HX+3yHs2eAQMcH4g7nAgy+
+ZgzIp94QfnuBA5hr4w0x7xBUPY8XJHx+FzgAANmtipo=
+            "]],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[CompressedData["
+1:eJxTTMoPSmViYGAQAWIQnQYCaq4O3zRi+g+xpjug8+VbXwfusHNzCNoh1/o6
+M93h8FeghJM7RPxausM694dVInoeDrZc1xcX+GZA6L8eEP1nMfkgbXKuXg7G
+IPA6E4MPpjd7OwB12XIdz3LQBGr7quHtcPYMCGQ7gHgx770h7inMhqi/7OMg
+AnLIkWyIujW+DgwgoJCDIT9rJhBU+kHc05oD4Vv6Q/zzLcfhDdA5rd5+EL5f
+rkMhyAMffCG0QJ4DyDu2WVDzT+Q5AAB3hIo8
+            "]],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{38.23, 247.48}, {38.23, 247.48}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{27.75, 248.81}, {30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{39.48, 244.03}, {42.78, 245.32}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{39.94, 234.46}, {39.94, 234.46}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{56.189300537109375`, 226.875}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{51.947187500000005`, 200.27046875000002`},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{59.7, 250.2}, {59.7, 250.2}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{44.74, 237.53}, {50.12, 236.77}, {48.09, 238.5}, {53.42, 
+            237.8}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{31.52, 244.98}, {31.52, 244.98}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{55.4, 235.78}, {55.4, 235.78}, {56.67, 239.04}, {54.63, 
+            240.95}, {55.71, 244.29}, {52.24, 250.46}, {52.24, 250.46}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{29.16, 245.92}, {32.57, 247.11}, {32.57, 247.11}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{45.75, 229.24}, {47.56, 227.2}, {45.75, 229.24}, {45.75, 
+            229.24}, {45.75, 229.24}, {45.75, 229.24}, {45.75, 229.24}, {47.3,
+             231.58}, {47.3, 231.58}, {47.3, 231.58}, {47.3, 231.58}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{43.88, 241.5}, {43.88, 241.5}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{68.19, 242.1}, {69.16, 247.62}, {67.71, 255.26}, {67.71, 
+            255.26}, {68.19, 261.03}, {66.13, 267.27}, {66.13, 267.27}, {
+            63.82, 272.49}, {63.62, 277.43}, {61.32, 276.84}, {60.95, 
+            281.31}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{32.57, 247.11}, {32.57, 247.11}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{52.54, 242.65}, {52.54, 242.65}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{62.64, 225.}, {62.64, 225.}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{46.01, 246.8}, {51.38, 247.25}, {53.57, 245.85}, {51.38, 
+            247.25}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{29.523399353027344`, 251.25}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{0, 0},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{52.24, 250.46}, {52.24, 250.46}, {52.24, 250.46}, {52.24,
+             250.46}, {52.97, 253.81}, {52.97, 253.81}, {52.97, 253.81}, {
+            51.67, 261.38}, {51.67, 261.38}}],
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {25.27, 249.57}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{48.09, 211.5}, {50.12, 213.23}, {50.68, 217.88}, {52.54, 
+            220.03}, {52.54, 220.03}, {52.54, 220.03}, {54.32, 222.4}, {54.32,
+             222.4}, {54.32, 227.6}, {54.32, 227.6}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{60.59, 234.46}, {60.59, 234.46}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{56.67, 239.04}, {56.67, 239.04}, {57.82, 242.53}, {59.88,
+             240.52}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{52.24, 250.46}, {54.47, 249.23}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{56.189300537109375`, 251.25}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{51.64968750000001, 250.28937500000004`},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[CompressedData["
+1:eJxTTMoPSmViYGAQAWIwvc79YdUUD4dvGjH9h3qzHarBAp4ObwJ3yLVezna4
+vrjAlivcy4EBBBRyHDSByr5qeDsYg0BxjgOIF/Pe2wGkS+RcjkOhLdf1xQHe
+DmkgIJcHUX/CC6J+d54DWLuNN0Sfej6EX+PlEAS07vVOTD5MP9hZIgUOh4Ha
++pm8HUDWFPgWwN0Ddm87Jh+kzDbLB6L/ACYf7L/pvhD7GAsx+EBL17kf9IP4
+iwWTDwCC0YpZ
+            "]],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{62.64, 225.}, {62.64, 225.}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{59.88, 240.52}, {58.66, 236.89}, {56.67, 239.04}, {54.47,
+             249.23}, {55.24, 252.76}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{42.78, 245.32}, {42.78, 245.32}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{39.25, 238.13}, {42.78, 245.32}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{57.82, 242.53}, {57.82, 242.53}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{52.37990188598633, 228.75}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{48.96703125000001, 219.61968750000003`},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{44.62, 250.64}, {42.78, 245.32}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{59.18, 218.99}, {59.35, 225.}, {60.95, 228.18}, {59.88, 
+            240.52}, {58.83, 246.25}, {56.67, 247.83}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{67.48, 220.91}, {67.48, 220.91}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{55.71, 244.29}, {55.71, 244.29}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{58.09389877319336, 223.125}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{42.75125, 245.236875},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[CompressedData["
+1:eJxTTMoPSmViYGAQAWIQrRnTf+jrCS8HYxDYnecg3/o6cIecF4T2y3e4vrjA
+livc08HjYZXIuuv5DkE75FpfF3pAxLULHETWuT+sKnF3OHsGCFIw+d80gBZM
+dYfSBQ5pILDMHWLf8QKHapCGWx4OXCADfxU4QNzjAVGnVwjRd9UTYm8mJh/m
+/jdAV7euLnQA8jRi3ns7gL2xsxBij7AvxF0nCiG0iR/EvluYfLC5gf4Qd73D
+5IPdZRYA4bMVOQAATNuR7A==
+            "]],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{37.11, 239.47}, {37.11, 239.47}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{37.89, 235.95}, {37.89, 235.95}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{49.16, 248.5}, {49.16, 248.5}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{62.45, 231.71}, {59.88, 240.52}, {56.67, 247.83}, {55.24,
+             252.76}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{58.09389877319336, 219.375}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{46.6296875, 245.1846875},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{57.82, 242.53}, {56.67, 247.83}, {55.24, 252.76}, {51.67,
+             261.38}, {49.71, 268.36}, {49.71, 271.64}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{67.48, 220.91}, {67.48, 220.91}, {67.48, 220.91}}],
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{19.23, 249.1}, {24.29, 247.62}, {26.75, 246.8}, {26.75, 
+            246.8}, {31.52, 244.98}, {30.38, 242.93}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{62.45, 218.29}, {62.45, 218.29}, {62.64, 225.}, {62.64, 
+            225.}, {62.64, 225.}, {62.64, 225.}, {59.18, 218.99}, {59.18, 
+            218.99}, {59.18, 218.99}, {60.95, 221.82}, {59.18, 231.01}, {
+            58.66, 236.89}, {57.82, 242.53}, {57.82, 242.53}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{63.03, 242.35}, {60.95, 244.44}, {61.88, 248.63}, {62.64,
+             253.07}, {62.64, 253.07}, {63.23, 257.73}, {63.23, 257.73}, {
+            63.23, 257.73}, {63.62, 262.57}, {65.91, 261.87}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{58.09389877319336, 221.25}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{49.583281250000006`, 242.07515625000002`},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{58.83, 246.25}, {58.83, 246.25}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{47.69, 197.45}, {49.16, 201.5}, {50.4, 205.82}, {50.4, 
+            205.82}, {50.4, 205.82}, {51.38, 210.38}, {52.1, 215.13}, {52.54, 
+            220.03}, {52.54, 220.03}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[CompressedData["
+1:eJxTTMoPSmViYGAQAWIQrRnTf+jrCS8HYxDYnecg3/o6cIecF4T2y8fgX19c
+YMsV7ung8bBKZN31fIegHXKtrws9IOLaBQ5pILDMAyIeW+DwTQNowVVPh3Xu
+QA1hBQ4Q+zwcZs0EgomYfIh+d4ezZ4DgByb/8FeggU7uDkBdGjHdhQ4gawJv
+uEPc/x2TDzJeQwbqvvQiuPuWALnXVxdBzOGH+udzkQPYu65eDiIgBycUQ9yn
+4Q3R14bJBwBPeZI8
+            "]],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{59.7, 250.2}, {59.7, 250.2}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{50.68, 232.12}, {50.68, 232.12}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{50.12, 213.23}, {50.68, 217.88}, {52.54, 220.03}, {54.32,
+             222.4}, {55.87, 219.56}, {55.87, 219.56}, {57.32, 216.47}, {
+            59.18, 218.99}, {57.65, 222.14}, {59.18, 218.99}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{50.47520065307617, 236.25}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{0, 0},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{60.95, 228.18}, {60.95, 228.18}}],
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{46.01, 166.33}, {48.89, 168.69}, {54.02, 170.84}, {54.32,
+             174.47}, {56.83, 178.02}, {59.18, 182.12}, {61.32, 186.84}, {
+            63.23, 192.26}, {64.85, 198.43}, {67.02, 200.23}, {70.18, 
+            210.96}, {70.71, 220.24}, {69.16, 225.}, {68.92, 233.75}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{52.24, 250.46}, {52.24, 250.46}, {50.68, 254.74}, {48.89,
+             258.69}, {46.52, 259.29}, {47.17, 265.36}, {44.74, 265.6}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{45.75, 220.76}, {45.88, 225.}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{52.54, 242.65}, {54.47, 249.23}, {52.24, 250.46}, {53.57,
+             257.28}, {54.32, 264.47}, {52.1, 268.26}, {54.32, 275.53}, {
+            54.02, 279.16}, {52.97, 286.19}, {55.24, 287.24}, {54.47, 
+            290.77}, {54.63, 299.05}, {55.4, 304.22}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{31.63, 221.73}, {33.31, 219.96}, {35.24, 221.53}, {36.89,
+             219.64}, {36.89, 219.64}, {36.89, 219.64}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{42.78, 245.32}, {42.78, 245.32}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{42.3, 221.05}, {42.3, 221.05}, {47.56, 222.8}, {50.96, 
+            222.61}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{58.09389877319336, 225.}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{0, 0},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{52.68, 225.}, {54.32, 222.4}, {57.65, 222.14}, {59.18, 
+            218.99}, {59.18, 218.99}, {60.59, 215.54}, {60.59, 215.54}}],
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{58.66, 236.89}, {59.88, 240.52}, {58.83, 246.25}, {57.49,
+             251.57}, {59.7, 250.2}, {58.15, 255.47}, {58.66, 259.51}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{69.16, 247.62}, {69.92, 253.61}, {72.11, 251.57}, {72.11,
+             251.57}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{62.64, 225.}, {60.59, 234.46}, {58.66, 236.89}, {58.66, 
+            236.89}, {59.88, 240.52}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{32.25, 236.63}, {32.25, 236.63}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{54.28459930419922, 228.75}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{52.55640625, 215.3921875},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}], ",", 
+   GraphicsBox[{{{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{55.24, 197.24}, {55.24, 197.24}, {54.47, 200.77}, {52.54,
+             207.35}, {53.42, 212.2}, {52.54, 220.03}, {55.4, 214.22}, {55.4, 
+            214.22}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{56.67, 239.04}, {57.82, 242.53}, {57.82, 242.53}, {58.83,
+             246.25}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{30.18, 247.99}, {30.18, 247.99}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{30.18, 247.99}, {30.18, 247.99}, {32.57, 247.11}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{64.03, 246.8}, {64.85, 251.57}, {67.02, 249.77}, {69.92, 
+            253.61}, {69.92, 253.61}, {72.69, 258.69}, {72.99, 266.19}, {
+            72.99, 273.81}, {72.69, 281.31}}],
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{35.24, 228.47}, {35.24, 228.47}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{39.48, 244.03}, {39.48, 244.03}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{62.64, 225.}, {62.64, 225.}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{61.88, 238.24}, {61.88, 238.24}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          
+          StyleBox[
+           LineBox[{{69.16, 247.62}, {69.92, 253.61}, {72.69, 258.69}}],
+           
+           FontFamily->
+            "Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {{}, {{{}, {}, {
+         {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+          AbsoluteThickness[1.6], 
+          StyleBox[LineBox[{{41.46, 248.96}, {41.46, 248.96}}],
+           FontFamily->"Baskerville"]}}}}, {}, {}, {{}, {}}, {{}, {}}}, {
+      {PointSize[0.06], PointBox[{42.85639953613281, 219.375}]}}},
+    AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+    Axes->{True, True},
+    AxesLabel->{None, None},
+    AxesOrigin->{52.495312500000004`, 196.88390625000002`},
+    BaseStyle->{FontFamily -> "Baskerville"},
+    DisplayFunction->Identity,
+    Frame->{{False, False}, {False, False}},
+    FrameLabel->{{None, None}, {None, None}},
+    FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+    GridLines->{None, None},
+    GridLinesStyle->Directive[
+      GrayLevel[0.5, 0.4]],
+    ImagePadding->All,
+    LabelStyle->{FontFamily -> "Baskerville"},
+    Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+          (Identity[#]& )[
+           Part[#, 1]], 
+          (Identity[#]& )[
+           Part[#, 2]]}& )}},
+    PlotRange->All,
+    PlotRangeClipping->True,
+    PlotRangePadding->{{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}},
+    Ticks->{Automatic, Automatic}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.708736798114341*^9, 3.708736823605651*^9}, {
+  3.7087368538002462`*^9, 3.708737000594624*^9}, {3.7087370370307903`*^9, 
+  3.708737065445024*^9}, {3.70873711750037*^9, 3.708737147766165*^9}, {
+  3.708737500379115*^9, 
+  3.708737617483796*^9}},ExpressionUUID->"fc8dc954-95e7-46f2-be3b-\
+78ded7912075"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"ab0d8f73-fe0a-480b-a4fe-75abfd1f17aa"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"slat", "=", "10"}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"elat", "=", "32"}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"slon", "=", "118"}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"elon", "=", "135"}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"winter", "=", 
+   RowBox[{
+    RowBox[{"Flatten", "[", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Range", "[", 
+          RowBox[{
+           RowBox[{"1", "+", 
+            RowBox[{"i", "*", "73"}]}], ",", 
+           RowBox[{"24", "+", 
+            RowBox[{"i", "*", "73"}]}]}], "]"}], ",", 
+         RowBox[{"Range", "[", 
+          RowBox[{
+           RowBox[{"50", "+", 
+            RowBox[{"i", "*", "73"}]}], ",", 
+           RowBox[{"73", "+", 
+            RowBox[{"i", "*", "73"}]}]}], "]"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", "0", ",", "69"}], "}"}]}], "]"}], "]"}], "[", 
+    RowBox[{"[", 
+     RowBox[{"1", ";;", 
+      RowBox[{"-", "25"}]}], "]"}], "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+  "SetDirectory", "[", 
+   "\"\</Volumes/lambda/Data/Reanalysis/NCEP/Precipitation\>\"", "]"}], 
+  ";"}], "\n", 
+ RowBox[{
+  RowBox[{"file", "=", 
+   RowBox[{
+    RowBox[{"FileNames", "[", "\"\<*.nc\>\"", "]"}], "[", 
+    RowBox[{"[", 
+     RowBox[{"11", ";;", "13"}], "]"}], "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"lat", "=", 
+   RowBox[{
+    RowBox[{"Import", "[", 
+     RowBox[{
+      RowBox[{"file", "[", 
+       RowBox[{"[", "1", "]"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Datasets\>\"", ",", "\"\<lat\>\""}], "}"}]}], "]"}], "[", 
+    
+    RowBox[{"[", 
+     RowBox[{"slat", ";;", "elat"}], "]"}], "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"lon", "=", 
+   RowBox[{
+    RowBox[{"Import", "[", 
+     RowBox[{
+      RowBox[{"file", "[", 
+       RowBox[{"[", "1", "]"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Datasets\>\"", ",", "\"\<lon\>\""}], "}"}]}], "]"}], "[", 
+    
+    RowBox[{"[", 
+     RowBox[{"slon", ";;", "elon"}], "]"}], "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"centers", "=", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"Block", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"p", ",", "cp", ",", 
+         RowBox[{"T", "=", "20"}]}], "}"}], ",", "\n", "\t", 
+       RowBox[{
+        RowBox[{"p", "=", 
+         RowBox[{"Import", "[", 
+          RowBox[{
+           RowBox[{"file", "[", 
+            RowBox[{"[", "i", "]"}], "]"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"\"\<Datasets\>\"", ",", "\"\<prate\>\""}], "}"}]}], 
+          "]"}]}], ";", "\n", "\t", 
+        RowBox[{"p", "=", 
+         RowBox[{"p", "[", 
+          RowBox[{"[", 
+           RowBox[{";;", ",", 
+            RowBox[{"slat", ";;", "elat"}], ",", 
+            RowBox[{"slon", ";;", "elon"}]}], "]"}], "]"}]}], ";", "\n", "\t", 
+        RowBox[{"cp", "=", 
+         RowBox[{"Table", "[", 
+          RowBox[{
+           RowBox[{"Total", "[", 
+            RowBox[{"p", "[", 
+             RowBox[{"[", 
+              RowBox[{
+               RowBox[{"j", ";;", 
+                RowBox[{"j", "+", "T", "-", "1"}]}], ",", ";;", ",", ";;"}], 
+              "]"}], "]"}], "]"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"j", ",", "1", ",", 
+             RowBox[{
+              RowBox[{"Length", "[", "p", "]"}], "-", "T", "+", "1"}], ",", 
+             "T"}], "}"}]}], "]"}]}], ";", "\n", "\t", 
+        RowBox[{"Map", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"lat", "[", 
+              RowBox[{"[", 
+               RowBox[{
+                RowBox[{"Position", "[", 
+                 RowBox[{"#", ",", 
+                  RowBox[{"Max", "[", "#", "]"}]}], "]"}], "[", 
+                RowBox[{"[", 
+                 RowBox[{"1", ",", "1"}], "]"}], "]"}], "]"}], "]"}], ",", 
+             "\n", "\t\t ", 
+             RowBox[{"lon", "[", 
+              RowBox[{"[", 
+               RowBox[{
+                RowBox[{"Position", "[", 
+                 RowBox[{"#", ",", 
+                  RowBox[{"Max", "[", "#", "]"}]}], "]"}], "[", 
+                RowBox[{"[", 
+                 RowBox[{"1", ",", "2"}], "]"}], "]"}], "]"}], "]"}], ",", 
+             "\n", "\t\t ", 
+             RowBox[{"Max", "[", "#", "]"}]}], "}"}], "&"}], ",", "cp"}], 
+         "]"}]}]}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", 
+       RowBox[{"Length", "[", "file", "]"}]}], "}"}]}], "]"}]}], 
+  ";"}]}], "Code",
+ CellChangeTimes->{
+  3.708737321646858*^9},ExpressionUUID->"ae6a2ae9-e6e8-463b-88bd-\
+403bf4223c79"]
 }, Open  ]]
 },
 WindowSize->{Full, Full},
@@ -2037,12 +5390,16 @@ CellTagsIndex->{
   Cell[86545, 1796, 122, 2, 
   74, "SlideShowNavigationBar", "ExpressionUUID" -> "b0e7c4cf-7b95-408b-b5b5-
    d585c9e65ca4",
+   CellTags->"SlideShowHeader"],
+  Cell[228544, 5221, 122, 2, 
+  74, "SlideShowNavigationBar", "ExpressionUUID" -> "ab0d8f73-fe0a-480b-
+   a4fe-75abfd1f17aa",
    CellTags->"SlideShowHeader"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"SlideShowHeader", 95108, 2027}
+ {"SlideShowHeader", 233663, 5380}
  }
 *)
 (*NotebookFileOutline
@@ -2085,8 +5442,63 @@ Cell[86670, 1800, 6210, 159, 487, "Code", "ExpressionUUID" -> \
 "5166efa7-aade-473a-91a4-2d167afcf2aa"],
 Cell[92883, 1961, 1455, 39, 135, "Code", "ExpressionUUID" -> \
 "1b54ec8c-e4de-41b4-8b04-836dca8b9cfc"],
-Cell[94341, 2002, 359, 9, 70, "Code", "ExpressionUUID" -> \
-"4366a13b-f91f-4ac8-ad14-dd741101c7f3"]
+Cell[94341, 2002, 644, 15, 103, "Code", "ExpressionUUID" -> \
+"4366a13b-f91f-4ac8-ad14-dd741101c7f3"],
+Cell[94988, 2019, 642, 15, 103, "Code", "ExpressionUUID" -> \
+"75f99245-c4a6-45d2-86ac-d979c857b19d"],
+Cell[95633, 2036, 640, 15, 103, "Code", "ExpressionUUID" -> \
+"ffdd4660-1a26-433c-a880-bef0a36d2057"],
+Cell[96276, 2053, 591, 14, 103, "Code", "ExpressionUUID" -> \
+"081aa622-308a-4121-a7e1-baadb33b6eca"],
+Cell[CellGroupData[{
+Cell[96892, 2071, 294, 7, 70, "Code", "ExpressionUUID" -> \
+"96f7aee8-d270-4e4a-84bc-b4224018959d"],
+Cell[97189, 2080, 178, 4, 47, "Output", "ExpressionUUID" -> \
+"0dd80d68-64a7-4ce4-94ea-57b48fa19a66"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[97404, 2089, 207, 5, 70, "Code", "ExpressionUUID" -> \
+"d24ab4c0-c756-46ba-ba56-2e77bf8418bd"],
+Cell[97614, 2096, 6217, 128, 592, "Output", "ExpressionUUID" -> \
+"75d8f6e7-f171-49a1-8f4b-0c59ab6652c4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[103868, 2229, 196, 4, 70, "Code", "ExpressionUUID" -> \
+"e066e854-0e0b-442d-baad-60365f995006"],
+Cell[104067, 2235, 209, 5, 47, "Output", "ExpressionUUID" -> \
+"9c546fb5-8845-443f-9a6c-3266d500ae58"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[104313, 2245, 266, 7, 70, "Code", "ExpressionUUID" -> \
+"9bf41f43-a282-4288-8d99-00d2fda67c1a"],
+Cell[104582, 2254, 219, 5, 47, "Output", "ExpressionUUID" -> \
+"f178dd82-1291-424c-a3f1-f3e803af7d1a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[104838, 2264, 312, 9, 70, "Code", "ExpressionUUID" -> \
+"514cff04-c699-4b0c-ad42-5ade9f717e08"],
+Cell[105153, 2275, 223, 5, 47, "Output", "ExpressionUUID" -> \
+"e921d8d5-e124-44ad-a2e2-8c4b796a2622"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[105413, 2285, 362, 10, 70, "Code", "ExpressionUUID" -> \
+"1256cd34-ddfd-4df6-98a1-60a8f62f57dc"],
+Cell[105778, 2297, 205, 5, 380, "Output", "ExpressionUUID" -> \
+"cbffab4c-4cfc-442b-886b-e7b115e363cf"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[106020, 2307, 1916, 49, 167, "Code", "ExpressionUUID" -> \
+"60a8c601-12c7-4d21-beb5-9da524dac824"],
+Cell[107939, 2358, 120556, 2857, 755, "Output", "ExpressionUUID" -> \
+"fc8dc954-95e7-46f2-be3b-78ded7912075"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[228544, 5221, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" -> \
+"ab0d8f73-fe0a-480b-a4fe-75abfd1f17aa",
+ CellTags->"SlideShowHeader"],
+Cell[228669, 5225, 4586, 139, 551, "Code", "ExpressionUUID" -> \
+"ae6a2ae9-e6e8-463b-88bd-403bf4223c79"]
 }, Open  ]]
 }
 ]
