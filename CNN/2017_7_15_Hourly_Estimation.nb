@@ -3,10 +3,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[         0,          0]
-NotebookDataLength[   1683034,      31178]
-NotebookOptionsPosition[   1663337,      30694]
-NotebookOutlinePosition[   1667346,      30804]
-CellTagsIndexPosition[   1667264,      30799]
+NotebookDataLength[   1684587,      31203]
+NotebookOptionsPosition[   1664890,      30719]
+NotebookOutlinePosition[   1668899,      30829]
+CellTagsIndexPosition[   1668817,      30824]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -604,23 +604,25 @@ generation. It is difficult to attribute QPF errors to specific aspects of \
 circulation deviations, since no easy what-if experiments regarding the \
 specific impacts of circulation structures could be devised, given its \
 continuity constraint and computing cost. Significant QPF errors may arise \
-from poor estimation of low pressure location, depression intensity, spatial \
-coverage or their combinations.  However, no existed approaches were found to \
-separate and quantify the contribution of each aspect. To fill this gap helps \
-revealing the dynamical origin of QPF deviations and sharpening our \
-understanding of  precipitation patterns in the context of changing climate. 
+from 1), poor estimation of low pressure location, depression intensity, \
+spatial coverage or their combinations; 2), error from the successive work of \
+interpreting the pressure field in terms of precipitation events.  However, \
+no existed approaches were found to separate and quantify the contribution of \
+each aspect. To fill this gap helps revealing the dynamical origin of QPF \
+deviations and sharpening our understanding of  precipitation patterns in the \
+context of changing climate. 
 
 Statistical synoptic analysis plays important role in such causality \
 identification work. For instance, correlation field map, which contours the \
 correlation coefficients between target variable and variable on each field \
 grid point, is both simple and effective in correlating point variable to 2-D \
 field. For field to field mapping, Combined Principal Component \
-Analysis(CPCA) is frequently adopted. It extracts the dominant variability of \
-the combined two or more spatial variables. This is achieved through \
-re-projecting the combined field to the orthogonal basis set that is \
-constructed with the eigen vectors of the original field\[CloseCurlyQuote]s \
-covariance matrix. Other methods include Canonical Correlation Analysis (CCA) \
-, Singular Value Decomposition(SVD), etc.. 
+Analysis(CPCA) is frequently adopted. Dominant variability of the combined \
+two or more spatial variables are extracted  through re-projecting the \
+combined field to the orthogonal basis set, which is constructed with the \
+eigen vectors of the original field\[CloseCurlyQuote]s covariance matrix. \
+Other methods include Canonical Correlation Analysis (CCA) , Singular Value \
+Decomposition(SVD), etc.. 
 
 Despite their effectiveness for linear space, these classical approaches are \
 very often limited for causality analysis in high dimensional nonlinear \
@@ -649,35 +651,35 @@ Machine learning differs from strictly static computing programs in that it \
 can learn from and make predictions on data by tuning its parameters once the \
 algorithm paradigm is determined.  Most machine learning paradigms have found \
 their applications in geoscience, such as tree-type models\\cite[], kernel \
-models\\cite[], graphic models\\cite[] and ensemble models\\cite[]. The \
-community in turn learns to treat geo variables and their connections as \
-information and information flows to measure our knowledge of data and \
-model\\cite[myself]. 
+models\\cite[], graphic models\\cite[] , reinforcement learning models and \
+ensemble models\\cite[]. The community in turn learns to treat geo variables \
+and their connections as information and information flows to measure our \
+knowledge of data and model\\cite[myself]. 
 
-Deep learning is a fast-growing branch of machine learning that is popular \
-for its outstanding fitting capacity. Mathematically it is a hierarchical \
-superposition of basic non-linear units(named \[OpenCurlyDoubleQuote]neurons\
-\[CloseCurlyDoubleQuote] for their biological inspiration) that map input \
-tensors to output tensors. The multi-layer feedforward structure allows \
-attributing the mapping error backward to each computing unit by applying \
-calculus Chain Rule. Parameters(connecting weights and biases) can thus be \
-adjusted accordingly. Different layers have been developed and stacked in \
-certain manners for various purposes. Among them, Convolutional Neural \
-Network(CNN) attracts particular attention of the geo community for its \
-superiority in processing spatial structured data.  Existed geological \
-applications of CNN include short range weather prediction[24], precipitation \
-nowcasting[25] and extreme weather detection[26, 27]. We illustrate how CNN \
-can be applied for precipitation projection using pressure field here. \
-bridging the gap!!!
+Among various machine learning paradigms, deep learning is a fast-growing \
+branch featured by its outstanding fitting capacity. Mathematically it is a \
+hierarchical superposition of basic non-linear units(named \
+\[OpenCurlyDoubleQuote]neurons\[CloseCurlyDoubleQuote] for their biological \
+inspiration) that map input tensors to output tensors. The multi-layer \
+feedforward structure allows attributing the mapping error backward to each \
+computing unit by applying calculus Chain Rule. Parameters(connecting weights \
+and biases) can thus be adjusted accordingly. Different layers have been \
+developed and stacked in certain manners for various purposes. Among them, \
+Convolutional Neural Network(CNN) attracts particular attention of the geo \
+community for its superiority in processing spatial structured data.  Existed \
+geological applications of CNN include short range weather prediction[24], \
+precipitation nowcasting[25] and extreme weather detection[26, 27]. We \
+illustrate how CNN can be applied for bridging the gap between crude \
+causality analysis and complicated numerial simulation by projecting \
+precipitation distribution using circulation field here. 
 
-The rest of the paper is organized as follows, we first introduce the data \
-and implement Combined Principal Component Analysis(CPCA) and regression \
-analysis to coarsely reveal the connection between pressure and precipita- \
-tion field in the west coast. In the following section the details for \
-extracting dominant pressure structures for precipitation projection using \
-CNN are ex- plained. The network is constructed and verified with reanalysis \
-and ensemble numerical simulation data. We conclude by responding to the \
-research questions mentioned above.\
+The rest of the paper is organized as follows, we first introduce the study \
+area and data. In the following section the details for extracting dominant \
+pressure structures for precipitation projection using CNN are explained. \
+Several experiments regarding different temporal scales and data sources were \
+devised. The network is constructed and verified with reanalysis and ensemble \
+numerical simulation data. We conclude by responding to the research \
+questions mentioned above.\
 \>", "Text",
  CellChangeTimes->{{3.709297129214465*^9, 3.709297164781424*^9}, {
    3.709297199837047*^9, 3.709297250048786*^9}, {3.709297299826047*^9, 
@@ -896,8 +898,14 @@ research questions mentioned above.\
    3.710707149325121*^9, 3.7107071529247427`*^9}, {3.710707189246479*^9, 
    3.710707198874454*^9}, {3.7107072416929693`*^9, 3.710707331680794*^9}, 
    3.71070770646486*^9, 3.710785619765294*^9, {3.710785816020564*^9, 
-   3.710785817579627*^9}, 
-   3.710785904492833*^9},ExpressionUUID->"89b07446-3ebd-4b86-a90e-\
+   3.710785817579627*^9}, 3.710785904492833*^9, {3.710870166835827*^9, 
+   3.710870224412763*^9}, {3.710870274888435*^9, 3.7108702812395773`*^9}, {
+   3.7108713274496937`*^9, 3.710871337096045*^9}, {3.710871382196569*^9, 
+   3.7108714203693323`*^9}, {3.710871504385076*^9, 3.710871548233601*^9}, {
+   3.710871621403051*^9, 3.710871649393577*^9}, {3.710871711901532*^9, 
+   3.7108717292128153`*^9}, {3.710871786457027*^9, 3.710871905247414*^9}, {
+   3.7108720958662157`*^9, 
+   3.710872109323717*^9}},ExpressionUUID->"89b07446-3ebd-4b86-a90e-\
 b84e10143e79"]
 }, Open  ]]
 }, Open  ]],
@@ -925,7 +933,21 @@ Cell["\<\
 The west coast United States, including California, Oregon and Washington \
 State was selected as case study area. This region was chosen for the \
 following reasons:
-1, The hydrological connectivity. correlation coefficient
+1, There hydrological connectivity. Typical rainy season for the west coast \
+lasts from October to March when
+extratropical cyclones move inland from Pacific Ocean due to the southward \
+progression of jet stream[3]. Accelerating jet streams suck up air from the \
+polar front, where warm moist tropical air mix with cold polar air to form \
+convective motion accompanied by intensive precipitation. The spatial \
+temporal variability of precipitation is therefore largely determined by the \
+size and spacing of these meandering upper wind belts. For instance, the 1988 \
+North America drought is related to an abnormal northern shifting of the \
+polar jet stream during a strong La Ni\[CloseCurlyQuote]na scenario. On the \
+other hand, in 1993, a broader jet stream was displaced well south to cause \
+widespread storms and floods[4].
+
+
+correlation coefficient
 2, The elusiveness of rainfall meandering extremes caused by abnormal \
 precipitation are among the most common natural disasters in the west coast \
 United States. While the deficit of winter precipitation from 2011 to 2015 \
@@ -940,7 +962,9 @@ try. How? incorporate moisture field data.\
 \>", "Text",
  CellChangeTimes->{{3.710785991538776*^9, 3.7107859920755577`*^9}, {
   3.710791041909391*^9, 3.710791269696663*^9}, {3.7107913197925997`*^9, 
-  3.710791321653886*^9}},ExpressionUUID->"2beb8e74-655f-4a22-99b4-\
+  3.710791321653886*^9}, {3.7108722107545233`*^9, 3.7108722121436872`*^9}, {
+  3.71087225558493*^9, 
+  3.710872256970731*^9}},ExpressionUUID->"2beb8e74-655f-4a22-99b4-\
 645d34a3d3d7"]
 }, Open  ]],
 
@@ -2226,7 +2250,8 @@ Cell[BoxData[
              StyleBox[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
-                StandardForm]],
+                StandardForm],
+               ImageSizeCache->{42., {0., 8.}}],
               StripOnInput->False,
               DynamicUpdating->True], "OSLControlActive",
              StripOnInput->False]}, Dynamic[
@@ -30722,75 +30747,75 @@ CellTagsIndex->{
   74, "SlideShowNavigationBar", "ExpressionUUID" -> "5fc6a19a-e240-4782-
    abe4-64e4e71577b6",
    CellTags->"SlideShowHeader"],
-  Cell[56299, 906, 122, 2, 
+  Cell[56897, 914, 122, 2, 
   74, "SlideShowNavigationBar", "ExpressionUUID" -> "413dda73-
    f752-497c-9a4d-1bd490dbe1a4",
    CellTags->"SlideShowHeader"],
-  Cell[96730, 1965, 122, 2, 
+  Cell[98235, 1989, 122, 2, 
   74, "SlideShowNavigationBar", "ExpressionUUID" -> "
    09751c21-8113-448d-9389-0d27517b1cdd",
    CellTags->"SlideShowHeader"],
-  Cell[101105, 2047, 122, 2, 
+  Cell[102610, 2071, 122, 2, 
   74, "SlideShowNavigationBar", "ExpressionUUID" -> "
    32fdf909-0fc7-4c62-9e15-377a33956986",
    CellTags->"SlideShowHeader"],
-  Cell[101230, 2051, 122, 2, 
+  Cell[102735, 2075, 122, 2, 
   74, "SlideShowNavigationBar", "ExpressionUUID" -> "a602d11a-6879-49ee-aff1-
    c9728f4bd39b",
    CellTags->"SlideShowHeader"],
-  Cell[101377, 2057, 122, 2, 
+  Cell[102882, 2081, 122, 2, 
   74, "SlideShowNavigationBar", "ExpressionUUID" -> "b1d0f1c4-18a3-441d-
    addf-62c07d2b28e4",
    CellTags->"SlideShowHeader"],
-  Cell[1225382, 22773, 122, 2, 
+  Cell[1226935, 22798, 122, 2, 
   74, "SlideShowNavigationBar", "ExpressionUUID" -> "1009b24f-80b2-4115-abdf-
    b9c1a1adeff1",
    CellTags->"SlideShowHeader"],
-  Cell[1225744, 22786, 122, 2, 
+  Cell[1227297, 22811, 122, 2, 
   74, "SlideShowNavigationBar", "ExpressionUUID" -> "
    11c5df2d-2b2e-4e79-954d-310ae98e469f",
    CellTags->"SlideShowHeader"],
-  Cell[1226112, 22799, 122, 2, 
+  Cell[1227665, 22824, 122, 2, 
   74, "SlideShowNavigationBar", "ExpressionUUID" -> "d701cb92-
    b89b-4fd2-8741-4f896067e186",
    CellTags->"SlideShowHeader"],
-  Cell[1226478, 22812, 122, 2, 
+  Cell[1228031, 22837, 122, 2, 
   74, "SlideShowNavigationBar", "ExpressionUUID" -> "f0634121-dbad-4bcd-
    aa1a-5e30ddaedc74",
    CellTags->"SlideShowHeader"],
-  Cell[1228138, 22858, 122, 2, 
+  Cell[1229691, 22883, 122, 2, 
   74, "SlideShowNavigationBar", "ExpressionUUID" -> "9e267d45-c973-4512-
    adff-65043af700b7",
    CellTags->"SlideShowHeader"],
-  Cell[1228263, 22862, 122, 2, 
+  Cell[1229816, 22887, 122, 2, 
   74, "SlideShowNavigationBar", "ExpressionUUID" -> "20800bd2-b91b-4953-
    bccb-47409b02697f",
    CellTags->"SlideShowHeader"],
-  Cell[1228388, 22866, 122, 2, 
+  Cell[1229941, 22891, 122, 2, 
   74, "SlideShowNavigationBar", "ExpressionUUID" -> "ac2043fc-9838-4c6d-afdc-
    a23d98211084",
    CellTags->"SlideShowHeader"],
-  Cell[1228535, 22872, 122, 2, 
+  Cell[1230088, 22897, 122, 2, 
   74, "SlideShowNavigationBar", "ExpressionUUID" -> "7bee302b-55fb-416c-b3c7-
    d51e197cc070",
    CellTags->"SlideShowHeader"],
-  Cell[1229444, 22902, 122, 2, 
+  Cell[1230997, 22927, 122, 2, 
   74, "SlideShowNavigationBar", "ExpressionUUID" -> "3255849d-53d8-4e5b-
    b9b7-319e3fdaf9b3",
    CellTags->"SlideShowHeader"],
-  Cell[1229569, 22906, 122, 2, 
+  Cell[1231122, 22931, 122, 2, 
   74, "SlideShowNavigationBar", "ExpressionUUID" -> "2e432101-
    b249-4101-8f87-61b534aa448a",
    CellTags->"SlideShowHeader"],
-  Cell[1229694, 22910, 122, 2, 
+  Cell[1231247, 22935, 122, 2, 
   74, "SlideShowNavigationBar", "ExpressionUUID" -> "7e30eb0a-a56a-4738-88a9-
    b626abb05cfe",
    CellTags->"SlideShowHeader"],
-  Cell[1229841, 22916, 122, 2, 
+  Cell[1231394, 22941, 122, 2, 
   74, "SlideShowNavigationBar", "ExpressionUUID" -> "0b4a03fc-221a-4d34-bc79-
    b8ad606e8df7",
    CellTags->"SlideShowHeader"],
-  Cell[1650918, 30404, 122, 2, 
+  Cell[1652471, 30429, 122, 2, 
   74, "SlideShowNavigationBar", "ExpressionUUID" -> "89d241ad-86b4-4137-
    b6de-9aeb8b86030b",
    CellTags->"SlideShowHeader"]}
@@ -30798,7 +30823,7 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"SlideShowHeader", 1663729, 30707}
+ {"SlideShowHeader", 1665282, 30732}
  }
 *)
 (*NotebookFileOutline
@@ -30853,324 +30878,324 @@ Cell[33303, 572, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" -> \
 Cell[CellGroupData[{
 Cell[33450, 578, 204, 4, 63, "Subchapter", "ExpressionUUID" -> \
 "425ef9e1-a140-4118-8635-71ac3d5c3234"],
-Cell[33657, 584, 22593, 316, 2601, "Text", "ExpressionUUID" -> \
+Cell[33657, 584, 23191, 324, 2601, "Text", "ExpressionUUID" -> \
 "89b07446-3ebd-4b86-a90e-b84e10143e79"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[56299, 906, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" -> \
+Cell[56897, 914, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" -> \
 "413dda73-f752-497c-9a4d-1bd490dbe1a4",
  CellTags->"SlideShowHeader"],
-Cell[56424, 910, 262, 4, 123, "Section", "ExpressionUUID" -> \
+Cell[57022, 918, 262, 4, 123, "Section", "ExpressionUUID" -> \
 "cae85696-a3b2-468c-a1bd-a76b17a02932"],
 Cell[CellGroupData[{
-Cell[56711, 918, 161, 3, 47, "Subchapter", "ExpressionUUID" -> \
+Cell[57309, 926, 161, 3, 47, "Subchapter", "ExpressionUUID" -> \
 "1a467969-a6bf-411d-a195-3c4632fa0801"],
-Cell[56875, 923, 1265, 20, 435, "Text", "ExpressionUUID" -> \
+Cell[57473, 931, 2172, 36, 853, "Text", "ExpressionUUID" -> \
 "2beb8e74-655f-4a22-99b4-645d34a3d3d7"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[58177, 948, 152, 3, 63, "Subchapter", "ExpressionUUID" -> \
+Cell[59682, 972, 152, 3, 63, "Subchapter", "ExpressionUUID" -> \
 "94824827-b5b5-4d09-8ce6-5d934e300554"],
-Cell[58332, 953, 1878, 44, 625, "Text", "ExpressionUUID" -> \
+Cell[59837, 977, 1878, 44, 625, "Text", "ExpressionUUID" -> \
 "e3710144-2ae7-4994-a0e4-c2412e85a4c7"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[60247, 1002, 336, 9, 63, "Subchapter", "ExpressionUUID" -> \
+Cell[61752, 1026, 336, 9, 63, "Subchapter", "ExpressionUUID" -> \
 "455f56a0-9ea2-4b34-967d-f9a39ad165ea"],
 Cell[CellGroupData[{
-Cell[60608, 1015, 165, 3, 74, "Subsubsection", "ExpressionUUID" -> \
+Cell[62113, 1039, 165, 3, 74, "Subsubsection", "ExpressionUUID" -> \
 "52656bea-d2c2-4aac-ae99-ca8a379e3ff4"],
 Cell[CellGroupData[{
-Cell[60798, 1022, 3106, 84, 327, "Code", "ExpressionUUID" -> \
+Cell[62303, 1046, 3106, 84, 327, "Code", "ExpressionUUID" -> \
 "2169200c-6380-4839-88c7-b04ddaa7c3ea"],
-Cell[63907, 1108, 387, 10, 47, "Output", "ExpressionUUID" -> \
+Cell[65412, 1132, 387, 10, 47, "Output", "ExpressionUUID" -> \
 "aabf1c86-05db-4c73-885b-c0ac39cbe639"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[64331, 1123, 767, 18, 103, "Code", "ExpressionUUID" -> \
+Cell[65836, 1147, 767, 18, 103, "Code", "ExpressionUUID" -> \
 "71064a5b-9de6-4cf5-bba1-eec4f1cfd717"],
-Cell[65101, 1143, 8496, 216, 181, "Output", "ExpressionUUID" -> \
+Cell[66606, 1167, 8496, 216, 181, "Output", "ExpressionUUID" -> \
 "744a4c9f-0628-4829-806d-3d24393d63d8"],
-Cell[73600, 1361, 8283, 213, 181, "Output", "ExpressionUUID" -> \
+Cell[75105, 1385, 8283, 213, 181, "Output", "ExpressionUUID" -> \
 "ea2621d1-60d1-4e78-8e8e-a143e7fa95f7"]
 }, Open  ]]
 }, Open  ]],
-Cell[81910, 1578, 217, 4, 74, "Subsubsection", "ExpressionUUID" -> \
+Cell[83415, 1602, 217, 4, 74, "Subsubsection", "ExpressionUUID" -> \
 "ff152fa1-de5d-4970-a113-e80c2d215a21"],
 Cell[CellGroupData[{
-Cell[82152, 1586, 159, 3, 53, "Subsubsection", "ExpressionUUID" -> \
+Cell[83657, 1610, 159, 3, 53, "Subsubsection", "ExpressionUUID" -> \
 "34501425-33a2-4cee-9bba-ea95e4ba779a"],
-Cell[82314, 1591, 7525, 195, 743, "Code", "ExpressionUUID" -> \
+Cell[83819, 1615, 7525, 195, 743, "Code", "ExpressionUUID" -> \
 "9a4c4c7f-711d-4b1e-8152-947585cd93b1"],
 Cell[CellGroupData[{
-Cell[89864, 1790, 400, 8, 103, "Code", "ExpressionUUID" -> \
+Cell[91369, 1814, 400, 8, 103, "Code", "ExpressionUUID" -> \
 "62ddaade-35f3-4b9c-863f-371a8983808f"],
-Cell[90267, 1800, 265, 6, 47, "Output", "ExpressionUUID" -> \
+Cell[91772, 1824, 265, 6, 47, "Output", "ExpressionUUID" -> \
 "2d422b6e-e567-4bd2-ae97-f6790539f1ef"],
-Cell[90535, 1808, 231, 5, 47, "Output", "ExpressionUUID" -> \
+Cell[92040, 1832, 231, 5, 47, "Output", "ExpressionUUID" -> \
 "6ff01915-168a-4f22-8078-59e3892c8e3f"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[90827, 1820, 166, 3, 63, "Subchapter", "ExpressionUUID" -> \
+Cell[92332, 1844, 166, 3, 63, "Subchapter", "ExpressionUUID" -> \
 "2347d23c-e1b6-4fc9-a3ee-39a9ec69176b"],
 Cell[CellGroupData[{
-Cell[91018, 1827, 165, 3, 74, "Subsubsection", "ExpressionUUID" -> \
+Cell[92523, 1851, 165, 3, 74, "Subsubsection", "ExpressionUUID" -> \
 "09a9dfc9-89e8-434f-b730-b2ce8173ae13"],
-Cell[91186, 1832, 3822, 80, 231, "Code", "ExpressionUUID" -> \
+Cell[92691, 1856, 3822, 80, 231, "Code", "ExpressionUUID" -> \
 "7328456d-f040-4cb0-b9bc-ef64ba6cc6b4"],
 Cell[CellGroupData[{
-Cell[95033, 1916, 353, 8, 103, "Code", "ExpressionUUID" -> \
+Cell[96538, 1940, 353, 8, 103, "Code", "ExpressionUUID" -> \
 "d3fa3a7d-eb86-474d-adb4-cd741e15319f"],
-Cell[95389, 1926, 399, 9, 37, "Message", "ExpressionUUID" -> \
+Cell[96894, 1950, 399, 9, 37, "Message", "ExpressionUUID" -> \
 "75dcda2f-95f1-4850-9e83-c3dc1feeec73"],
-Cell[95791, 1937, 321, 6, 47, "Output", "ExpressionUUID" -> \
+Cell[97296, 1961, 321, 6, 47, "Output", "ExpressionUUID" -> \
 "1c22efd9-5032-42ab-95a6-2a0b01043489"],
-Cell[96115, 1945, 324, 6, 47, "Output", "ExpressionUUID" -> \
+Cell[97620, 1969, 324, 6, 47, "Output", "ExpressionUUID" -> \
 "c862dde5-28a2-43cc-b1ec-ee794a93388a"]
 }, Open  ]]
 }, Open  ]],
-Cell[96466, 1955, 215, 4, 74, "Subsubsection", "ExpressionUUID" -> \
+Cell[97971, 1979, 215, 4, 74, "Subsubsection", "ExpressionUUID" -> \
 "1eb42f16-4fb4-49b9-90da-d95ac01c9e3c"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[96730, 1965, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" -> \
+Cell[98235, 1989, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" -> \
 "09751c21-8113-448d-9389-0d27517b1cdd",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[96877, 1971, 205, 4, 123, "Section", "ExpressionUUID" -> \
+Cell[98382, 1995, 205, 4, 123, "Section", "ExpressionUUID" -> \
 "b4a719e4-1c25-4ce9-a605-eb1c5ed98946"],
-Cell[97085, 1977, 1222, 20, 473, "Text", "ExpressionUUID" -> \
+Cell[98590, 2001, 1222, 20, 473, "Text", "ExpressionUUID" -> \
 "b8dfae6e-c474-42f5-869f-93ecf94c5603"],
-Cell[98310, 1999, 2597, 39, 1043, "Text", "ExpressionUUID" -> \
+Cell[99815, 2023, 2597, 39, 1043, "Text", "ExpressionUUID" -> \
 "510ee2ff-47c3-4a85-9345-79b9cc195d39"]
 }, Open  ]],
-Cell[100922, 2041, 168, 3, 63, "Subchapter", "ExpressionUUID" -> \
+Cell[102427, 2065, 168, 3, 63, "Subchapter", "ExpressionUUID" -> \
 "11ffea94-e7a9-4334-b57d-f8f8440dba36"]
 }, Open  ]],
-Cell[101105, 2047, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" -> \
+Cell[102610, 2071, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" -> \
 "32fdf909-0fc7-4c62-9e15-377a33956986",
  CellTags->"SlideShowHeader"],
-Cell[101230, 2051, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" -> \
+Cell[102735, 2075, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" -> \
 "a602d11a-6879-49ee-aff1-c9728f4bd39b",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[101377, 2057, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" -> \
+Cell[102882, 2081, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" -> \
 "b1d0f1c4-18a3-441d-addf-62c07d2b28e4",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[101524, 2063, 1251, 32, 103, "Code", "ExpressionUUID" -> \
+Cell[103029, 2087, 1251, 32, 103, "Code", "ExpressionUUID" -> \
 "d76b2310-9269-452c-b5bf-d4ff1467b18e"],
-Cell[102778, 2097, 8986, 222, 245, "Output", "ExpressionUUID" -> \
+Cell[104283, 2121, 9034, 223, 245, "Output", "ExpressionUUID" -> \
 "0afe3ed5-27c0-4650-8708-224a091c3716"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[111801, 2324, 4046, 106, 391, "Code", "ExpressionUUID" -> \
+Cell[113354, 2349, 4046, 106, 391, "Code", "ExpressionUUID" -> \
 "0c96e464-8a5c-4fcd-aa5d-665154834b68"],
-Cell[115850, 2432, 251, 6, 47, "Output", "ExpressionUUID" -> \
+Cell[117403, 2457, 251, 6, 47, "Output", "ExpressionUUID" -> \
 "798ca0b7-9b75-4057-b1f4-0dad7ac6c151"],
-Cell[116104, 2440, 272, 6, 47, "Output", "ExpressionUUID" -> \
+Cell[117657, 2465, 272, 6, 47, "Output", "ExpressionUUID" -> \
 "396b42b4-2f85-4416-aaf6-1d20271ef752"],
-Cell[116379, 2448, 251, 6, 47, "Output", "ExpressionUUID" -> \
+Cell[117932, 2473, 251, 6, 47, "Output", "ExpressionUUID" -> \
 "c80b0fbe-6084-41e5-8945-0e8a0eb33d78"],
-Cell[116633, 2456, 272, 6, 47, "Output", "ExpressionUUID" -> \
+Cell[118186, 2481, 272, 6, 47, "Output", "ExpressionUUID" -> \
 "d14cecf8-e026-449f-b56f-b47f4692ccd6"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[116942, 2467, 9942, 155, 1063, "Code", "ExpressionUUID" -> \
+Cell[118495, 2492, 9942, 155, 1063, "Code", "ExpressionUUID" -> \
 "189601d4-a577-4d36-9383-d4208898d05d"],
-Cell[126887, 2624, 45078, 931, 339, "Output", "ExpressionUUID" -> \
+Cell[128440, 2649, 45078, 931, 339, "Output", "ExpressionUUID" -> \
 "2430afa9-6811-4a8a-9abc-03ee9b5242bf"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[172002, 3560, 328, 8, 70, "Code", "ExpressionUUID" -> \
+Cell[173555, 3585, 328, 8, 70, "Code", "ExpressionUUID" -> \
 "097d3187-4cac-4f82-8fc8-5ca263e72d3f"],
-Cell[172333, 3570, 695, 11, 47, "Output", "ExpressionUUID" -> \
+Cell[173886, 3595, 695, 11, 47, "Output", "ExpressionUUID" -> \
 "6ddadfec-e7fd-480f-a73d-32477d319a2e"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[173065, 3586, 2316, 45, 231, "Code", "ExpressionUUID" -> \
+Cell[174618, 3611, 2316, 45, 231, "Code", "ExpressionUUID" -> \
 "8b995aa4-a59e-4da7-b330-458bc00a21cb"],
-Cell[175384, 3633, 45515, 938, 339, "Output", "ExpressionUUID" -> \
+Cell[176937, 3658, 45515, 938, 339, "Output", "ExpressionUUID" -> \
 "72e3810a-b7c0-45f8-9cda-90b175c4f920"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[220936, 4576, 940, 23, 135, "Code", "ExpressionUUID" -> \
+Cell[222489, 4601, 940, 23, 135, "Code", "ExpressionUUID" -> \
 "398477a0-0241-44dc-b578-e1d28c3bdbc6"],
-Cell[221879, 4601, 582545, 9565, 241, 570194, 9363, "CachedBoxData", \
+Cell[223432, 4626, 582545, 9565, 241, 570194, 9363, "CachedBoxData", \
 "BoxData", "Output", "ExpressionUUID" -> \
 "1cfbdedd-8349-45f5-a8c6-930c22cc19bf"],
-Cell[804427, 14168, 689, 10, 47, "Output", "ExpressionUUID" -> \
+Cell[805980, 14193, 689, 10, 47, "Output", "ExpressionUUID" -> \
 "d9d83dd5-40d1-4909-afca-55fb6172d102"]
 }, Open  ]],
-Cell[805131, 14181, 1096, 31, 135, "Code", "ExpressionUUID" -> \
+Cell[806684, 14206, 1096, 31, 135, "Code", "ExpressionUUID" -> \
 "8116862a-be04-451d-b86a-29478d297439",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[806230, 14214, 2612, 60, 249, "Output", "ExpressionUUID" -> \
+Cell[807783, 14239, 2612, 60, 249, "Output", "ExpressionUUID" -> \
 "0ab956da-6207-4842-bc90-3283dbb941e2"],
 Cell[CellGroupData[{
-Cell[808867, 14278, 3404, 91, 295, "Code", "ExpressionUUID" -> \
+Cell[810420, 14303, 3404, 91, 295, "Code", "ExpressionUUID" -> \
 "367aa238-a089-4842-a229-3df758d42346"],
-Cell[812274, 14371, 396544, 8044, 5983, "Output", "ExpressionUUID" -> \
+Cell[813827, 14396, 396544, 8044, 5983, "Output", "ExpressionUUID" -> \
 "ac4ac566-3930-46f6-86d0-5ab105b737e2"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1208855, 22420, 546, 12, 103, "Code", "ExpressionUUID" -> \
+Cell[1210408, 22445, 546, 12, 103, "Code", "ExpressionUUID" -> \
 "4240f7c3-7703-4bdd-abe1-8fe01dde35b9"],
-Cell[1209404, 22434, 15929, 333, 455, "Output", "ExpressionUUID" -> \
+Cell[1210957, 22459, 15929, 333, 455, "Output", "ExpressionUUID" -> \
 "cec4815b-bf15-41e8-be97-4fd2b687471f"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1225382, 22773, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
+Cell[1226935, 22798, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
 -> "1009b24f-80b2-4115-abdf-b9c1a1adeff1",
  CellTags->"SlideShowHeader"],
-Cell[1225507, 22777, 200, 4, 123, "Section", "ExpressionUUID" -> \
+Cell[1227060, 22802, 200, 4, 123, "Section", "ExpressionUUID" -> \
 "a561375c-53b8-4b81-ade7-df6a84296aa9"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1225744, 22786, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
+Cell[1227297, 22811, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
 -> "11c5df2d-2b2e-4e79-954d-310ae98e469f",
  CellTags->"SlideShowHeader"],
-Cell[1225869, 22790, 206, 4, 123, "Section", "ExpressionUUID" -> \
+Cell[1227422, 22815, 206, 4, 123, "Section", "ExpressionUUID" -> \
 "2617abce-9f9e-4746-b7e1-29d1ca0a8611"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1226112, 22799, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
+Cell[1227665, 22824, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
 -> "d701cb92-b89b-4fd2-8741-4f896067e186",
  CellTags->"SlideShowHeader"],
-Cell[1226237, 22803, 204, 4, 123, "Section", "ExpressionUUID" -> \
+Cell[1227790, 22828, 204, 4, 123, "Section", "ExpressionUUID" -> \
 "22ec0847-2b3d-48bd-abc4-5fc7980689dd"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1226478, 22812, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
+Cell[1228031, 22837, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
 -> "f0634121-dbad-4bcd-aa1a-5e30ddaedc74",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[1226625, 22818, 249, 4, 123, "Section", "ExpressionUUID" -> \
+Cell[1228178, 22843, 249, 4, 123, "Section", "ExpressionUUID" -> \
 "87e81725-166a-4c34-ab7e-58fa3a17f636"],
-Cell[1226877, 22824, 1234, 30, 167, "Code", "ExpressionUUID" -> \
+Cell[1228430, 22849, 1234, 30, 167, "Code", "ExpressionUUID" -> \
 "bb426749-8393-4e2a-9406-4c9301e86b83"]
 }, Open  ]]
 }, Open  ]],
-Cell[1228138, 22858, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
+Cell[1229691, 22883, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
 -> "9e267d45-c973-4512-adff-65043af700b7",
  CellTags->"SlideShowHeader"],
-Cell[1228263, 22862, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
+Cell[1229816, 22887, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
 -> "20800bd2-b91b-4953-bccb-47409b02697f",
  CellTags->"SlideShowHeader"],
-Cell[1228388, 22866, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
+Cell[1229941, 22891, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
 -> "ac2043fc-9838-4c6d-afdc-a23d98211084",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[1228535, 22872, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
+Cell[1230088, 22897, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
 -> "7bee302b-55fb-416c-b3c7-d51e197cc070",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[1228682, 22878, 342, 9, 103, "Code", "ExpressionUUID" -> \
+Cell[1230235, 22903, 342, 9, 103, "Code", "ExpressionUUID" -> \
 "36499c53-72a1-4991-b581-7f599003fcf3"],
-Cell[1229027, 22889, 223, 4, 47, "Output", "ExpressionUUID" -> \
+Cell[1230580, 22914, 223, 4, 47, "Output", "ExpressionUUID" -> \
 "9af911a0-c70c-406f-af7f-9e041f8fccca"]
 }, Open  ]],
-Cell[1229265, 22896, 164, 3, 55, "Text", "ExpressionUUID" -> \
+Cell[1230818, 22921, 164, 3, 55, "Text", "ExpressionUUID" -> \
 "2db118f6-f042-4d77-b71b-fdc0fcecaa74"]
 }, Open  ]],
-Cell[1229444, 22902, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
+Cell[1230997, 22927, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
 -> "3255849d-53d8-4e5b-b9b7-319e3fdaf9b3",
  CellTags->"SlideShowHeader"],
-Cell[1229569, 22906, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
+Cell[1231122, 22931, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
 -> "2e432101-b249-4101-8f87-61b534aa448a",
  CellTags->"SlideShowHeader"],
-Cell[1229694, 22910, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
+Cell[1231247, 22935, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
 -> "7e30eb0a-a56a-4738-88a9-b626abb05cfe",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[1229841, 22916, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
+Cell[1231394, 22941, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
 -> "0b4a03fc-221a-4d34-bc79-b8ad606e8df7",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[1229988, 22922, 162, 3, 123, "Section", "ExpressionUUID" -> \
+Cell[1231541, 22947, 162, 3, 123, "Section", "ExpressionUUID" -> \
 "d95a58a0-7a32-4190-8bcd-ed383a44f65a"],
 Cell[CellGroupData[{
-Cell[1230175, 22929, 1333, 36, 199, "Code", "ExpressionUUID" -> \
+Cell[1231728, 22954, 1333, 36, 199, "Code", "ExpressionUUID" -> \
 "d8864132-f50b-4850-a22b-1332cd54b466"],
-Cell[1231511, 22967, 273, 6, 47, "Output", "ExpressionUUID" -> \
+Cell[1233064, 22992, 273, 6, 47, "Output", "ExpressionUUID" -> \
 "2311e9c5-ea8a-48e5-89aa-42dcfa383f74"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1231821, 22978, 1117, 30, 199, "Code", "ExpressionUUID" -> \
+Cell[1233374, 23003, 1117, 30, 199, "Code", "ExpressionUUID" -> \
 "ad602826-45d8-4ee0-8f07-fd7af1c291e6"],
-Cell[1232941, 23010, 336, 7, 47, "Output", "ExpressionUUID" -> \
+Cell[1234494, 23035, 336, 7, 47, "Output", "ExpressionUUID" -> \
 "ef1a2239-69d3-427d-b863-5198c71dbd22"]
 }, Open  ]],
-Cell[1233292, 23020, 881, 26, 70, "Code", "ExpressionUUID" -> \
+Cell[1234845, 23045, 881, 26, 70, "Code", "ExpressionUUID" -> \
 "61851b27-6b37-420a-abe5-4dadc8ed9eb1"],
-Cell[1234176, 23048, 471, 12, 103, "Code", "ExpressionUUID" -> \
+Cell[1235729, 23073, 471, 12, 103, "Code", "ExpressionUUID" -> \
 "bf492aa8-3dd5-4c95-977c-aa31d0d555da"],
 Cell[CellGroupData[{
-Cell[1234672, 23064, 2746, 55, 551, "Code", "ExpressionUUID" -> \
+Cell[1236225, 23089, 2746, 55, 551, "Code", "ExpressionUUID" -> \
 "5cf646f5-6dfe-4d55-b21d-a6a5990f6418"],
-Cell[1237421, 23121, 36760, 772, 294, "Output", "ExpressionUUID" -> \
+Cell[1238974, 23146, 36760, 772, 294, "Output", "ExpressionUUID" -> \
 "42ee7a07-59bf-46c3-a633-a6e2a8688ba5"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1274218, 23898, 279, 7, 70, "Code", "ExpressionUUID" -> \
+Cell[1275771, 23923, 279, 7, 70, "Code", "ExpressionUUID" -> \
 "959b815f-055e-44b3-be36-8e9806e02522"],
-Cell[1274500, 23907, 177, 3, 47, "Output", "ExpressionUUID" -> \
+Cell[1276053, 23932, 177, 3, 47, "Output", "ExpressionUUID" -> \
 "fdf0cb99-0a0b-43b4-97b9-40bf4c33fffd"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1274714, 23915, 1937, 44, 231, "Code", "ExpressionUUID" -> \
+Cell[1276267, 23940, 1937, 44, 231, "Code", "ExpressionUUID" -> \
 "016a3e58-fa62-4dd5-9ccb-3932bba25613"],
-Cell[1276654, 23961, 36825, 773, 294, "Output", "ExpressionUUID" -> \
+Cell[1278207, 23986, 36825, 773, 294, "Output", "ExpressionUUID" -> \
 "0486f708-1978-49b4-ad1b-cf46b1bddc47"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1313516, 24739, 190, 4, 70, "Code", "ExpressionUUID" -> \
+Cell[1315069, 24764, 190, 4, 70, "Code", "ExpressionUUID" -> \
 "9aff2f2b-3a7e-41ca-8b22-68f96a63b9e2"],
-Cell[1313709, 24745, 214, 5, 47, "Output", "ExpressionUUID" -> \
+Cell[1315262, 24770, 214, 5, 47, "Output", "ExpressionUUID" -> \
 "bb24c96a-d677-4f25-881d-1dcadbf5d184"]
 }, Open  ]],
-Cell[1313938, 24753, 471, 15, 70, "Code", "ExpressionUUID" -> \
+Cell[1315491, 24778, 471, 15, 70, "Code", "ExpressionUUID" -> \
 "5d1b1977-2b71-41d7-94ae-28d7f601e94b"],
 Cell[CellGroupData[{
-Cell[1314434, 24772, 1779, 39, 135, "Code", "ExpressionUUID" -> \
+Cell[1315987, 24797, 1779, 39, 135, "Code", "ExpressionUUID" -> \
 "d0aae44a-bd45-46c0-afa9-9364d8530135"],
-Cell[1316216, 24813, 184881, 3072, 237, 72857, 1237, "CachedBoxData", \
+Cell[1317769, 24838, 184881, 3072, 237, 72857, 1237, "CachedBoxData", \
 "BoxData", "Output", "ExpressionUUID" -> \
 "8f3a71e8-4a9c-4c96-9673-68084036989e"]
 }, Open  ]],
-Cell[1501112, 27888, 713, 20, 70, "Code", "ExpressionUUID" -> \
+Cell[1502665, 27913, 713, 20, 70, "Code", "ExpressionUUID" -> \
 "f7b3b09e-c1fc-44af-adbd-7b1b07331c50"],
 Cell[CellGroupData[{
-Cell[1501850, 27912, 191, 4, 70, "Code", "ExpressionUUID" -> \
+Cell[1503403, 27937, 191, 4, 70, "Code", "ExpressionUUID" -> \
 "274d7d73-07e6-4359-bd60-eebcfebe0e7a"],
-Cell[1502044, 27918, 451, 10, 47, "Output", "ExpressionUUID" -> \
+Cell[1503597, 27943, 451, 10, 47, "Output", "ExpressionUUID" -> \
 "87a927b3-93e5-4e21-89d7-e7cf579672e6"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1502532, 27933, 268, 6, 70, "Code", "ExpressionUUID" -> \
+Cell[1504085, 27958, 268, 6, 70, "Code", "ExpressionUUID" -> \
 "a4d7898f-bc0e-45db-93c9-3f87821cb904"],
-Cell[1502803, 27941, 147131, 2429, 240, 135543, 2238, "CachedBoxData", \
+Cell[1504356, 27966, 147131, 2429, 240, 135543, 2238, "CachedBoxData", \
 "BoxData", "Output", "ExpressionUUID" -> \
 "56e9ca78-78b6-4ffe-91c4-10f8f88d308b"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1649971, 30375, 515, 12, 70, "Code", "ExpressionUUID" -> \
+Cell[1651524, 30400, 515, 12, 70, "Code", "ExpressionUUID" -> \
 "7e376647-3d23-4241-b405-cff329b5e847"],
-Cell[1650489, 30389, 368, 8, 47, "Output", "ExpressionUUID" -> \
+Cell[1652042, 30414, 368, 8, 47, "Output", "ExpressionUUID" -> \
 "03a659ba-1621-4a8b-b7b2-7420b08af021"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1650918, 30404, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
+Cell[1652471, 30429, 122, 2, 74, "SlideShowNavigationBar", "ExpressionUUID" \
 -> "89d241ad-86b4-4137-b6de-9aeb8b86030b",
  CellTags->"SlideShowHeader"],
-Cell[1651043, 30408, 12278, 283, 8947, "Text", "ExpressionUUID" -> \
+Cell[1652596, 30433, 12278, 283, 8947, "Text", "ExpressionUUID" -> \
 "5d391b80-c0d9-4b96-be22-161fc1e19803"]
 }, Open  ]]
 }
