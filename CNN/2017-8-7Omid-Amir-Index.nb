@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    951019,      16614]
-NotebookOptionsPosition[    943986,      16433]
-NotebookOutlinePosition[    944639,      16459]
-CellTagsIndexPosition[    944558,      16454]
+NotebookDataLength[    951085,      16614]
+NotebookOptionsPosition[    944052,      16433]
+NotebookOutlinePosition[    944705,      16459]
+CellTagsIndexPosition[    944624,      16454]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -939,16 +939,16 @@ a123fd4b4bae"],
 Cell[BoxData[
  TagBox[GridBox[{
     {
-     GraphicsBox[{{}, {{{}, {}, {
-          {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
-           AbsoluteThickness[1.6], 
-           LineBox[{{1., 0.11472008350029828`}, {10., 0.2525790274555742}, {
-            20., 0.18144944287919917`}, {200., 0.35120974813528455`}, {500., 
-            0.3057831986045406}, {1000., 0.41043307457283257`}, {2000., 
-            0.4544354740404748}, {5000., 0.4397461853538562}, {10000., 
-            0.5089861896594817}, {15000., 0.4493477713665263}, {20000., 
-            0.49302912732733317`}, {25000., 
-            0.49747748169891676`}}]}}}}, {}, {}, {{}, {}}, {{}, {}}},
+     GraphicsBox[{{}, {{{}, {}, {{
+           {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+            AbsoluteThickness[1.6], 
+            LineBox[{{1., 0.11472008350029828`}, {10., 0.2525790274555742}, {
+             20., 0.18144944287919917`}, {200., 0.35120974813528455`}, {500., 
+             0.3057831986045406}, {1000., 0.41043307457283257`}, {2000., 
+             0.4544354740404748}, {5000., 0.4397461853538562}, {10000., 
+             0.5089861896594817}, {15000., 0.4493477713665263}, {20000., 
+             0.49302912732733317`}, {25000., 
+             0.49747748169891676`}}]}}}}}, {}, {}, {{}, {}}, {{}, {}}},
       AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
       Axes->{True, True},
       AxesLabel->{None, None},
@@ -987,16 +987,16 @@ Cell[BoxData[
          Scaled[0.02], 
          Scaled[0.02]}},
       Ticks->{Automatic, Automatic}], 
-     GraphicsBox[{{}, {{{}, {}, {
-          {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
-           AbsoluteThickness[1.6], 
-           LineBox[{{1., 0.09553607055051157}, {10., 0.27978146094877554`}, {
-            20., 0.34278031835221734`}, {200., 0.4395705662063904}, {500., 
-            0.48456102398037026`}, {1000., 0.5170138094613086}, {2000., 
-            0.46039438564850776`}, {5000., 0.509908722513758}, {10000., 
-            0.5144470651050188}, {15000., 0.48643735383828196`}, {20000., 
-            0.5216915134028264}, {25000., 
-            0.49377683122343674`}}]}}}}, {}, {}, {{}, {}}, {{}, {}}},
+     GraphicsBox[{{}, {{{}, {}, {{
+           {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+            AbsoluteThickness[1.6], 
+            LineBox[{{1., 0.09553607055051157}, {10., 0.27978146094877554`}, {
+             20., 0.34278031835221734`}, {200., 0.4395705662063904}, {500., 
+             0.48456102398037026`}, {1000., 0.5170138094613086}, {2000., 
+             0.46039438564850776`}, {5000., 0.509908722513758}, {10000., 
+             0.5144470651050188}, {15000., 0.48643735383828196`}, {20000., 
+             0.5216915134028264}, {25000., 
+             0.49377683122343674`}}]}}}}}, {}, {}, {{}, {}}, {{}, {}}},
       AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
       Axes->{True, True},
       AxesLabel->{None, None},
@@ -1035,16 +1035,16 @@ Cell[BoxData[
          Scaled[0.02], 
          Scaled[0.02]}},
       Ticks->{Automatic, Automatic}], 
-     GraphicsBox[{{}, {{{}, {}, {
-          {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
-           AbsoluteThickness[1.6], 
-           LineBox[{{1., 0.17510012332679353`}, {10., 0.3160229217590162}, {
-            20., 0.1821992407177303}, {200., 0.40878145578263003`}, {500., 
-            0.41897493797148444`}, {1000., 0.466252678108837}, {2000., 
-            0.5372773807372018}, {5000., 0.49514540106172633`}, {10000., 
-            0.6269613213673373}, {15000., 0.5567435536132859}, {20000., 
-            0.5516385283614526}, {25000., 
-            0.5621381529010289}}]}}}}, {}, {}, {{}, {}}, {{}, {}}},
+     GraphicsBox[{{}, {{{}, {}, {{
+           {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+            AbsoluteThickness[1.6], 
+            LineBox[{{1., 0.17510012332679353`}, {10., 0.3160229217590162}, {
+             20., 0.1821992407177303}, {200., 0.40878145578263003`}, {500., 
+             0.41897493797148444`}, {1000., 0.466252678108837}, {2000., 
+             0.5372773807372018}, {5000., 0.49514540106172633`}, {10000., 
+             0.6269613213673373}, {15000., 0.5567435536132859}, {20000., 
+             0.5516385283614526}, {25000., 
+             0.5621381529010289}}]}}}}}, {}, {}, {{}, {}}, {{}, {}}},
       AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
       Axes->{True, True},
       AxesLabel->{None, None},
@@ -1084,16 +1084,16 @@ Cell[BoxData[
          Scaled[0.02]}},
       Ticks->{Automatic, Automatic}]},
     {
-     GraphicsBox[{{}, {{{}, {}, {
-          {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
-           AbsoluteThickness[1.6], 
-           LineBox[{{1., 0.3031996088438311}, {10., 0.23859157915406157`}, {
-            20., 0.2948100902220682}, {200., 0.4511710814820235}, {500., 
-            0.5114551627552255}, {1000., 0.547836200857672}, {2000., 
-            0.521116810066442}, {5000., 0.5699961853133935}, {10000., 
-            0.6218138152076216}, {15000., 0.6245732742765414}, {20000., 
-            0.6173536583736463}, {25000., 
-            0.6476797396164514}}]}}}}, {}, {}, {{}, {}}, {{}, {}}},
+     GraphicsBox[{{}, {{{}, {}, {{
+           {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+            AbsoluteThickness[1.6], 
+            LineBox[{{1., 0.3031996088438311}, {10., 0.23859157915406157`}, {
+             20., 0.2948100902220682}, {200., 0.4511710814820235}, {500., 
+             0.5114551627552255}, {1000., 0.547836200857672}, {2000., 
+             0.521116810066442}, {5000., 0.5699961853133935}, {10000., 
+             0.6218138152076216}, {15000., 0.6245732742765414}, {20000., 
+             0.6173536583736463}, {25000., 
+             0.6476797396164514}}]}}}}}, {}, {}, {{}, {}}, {{}, {}}},
       AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
       Axes->{True, True},
       AxesLabel->{None, None},
@@ -1132,16 +1132,16 @@ Cell[BoxData[
          Scaled[0.02], 
          Scaled[0.02]}},
       Ticks->{Automatic, Automatic}], 
-     GraphicsBox[{{}, {{{}, {}, {
-          {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
-           AbsoluteThickness[1.6], 
-           LineBox[{{1., 0.009792927047864757}, {10., 0.27004337334894}, {20.,
-             0.3175803769695262}, {200., 0.6260054987633691}, {500., 
-            0.529986458359521}, {1000., 0.5770885690540513}, {2000., 
-            0.6080965471542825}, {5000., 0.6306364506545024}, {10000., 
-            0.7288880569269501}, {15000., 0.6667313737430601}, {20000., 
-            0.7213877767466791}, {25000., 
-            0.6603262651648248}}]}}}}, {}, {}, {{}, {}}, {{}, {}}},
+     GraphicsBox[{{}, {{{}, {}, {{
+           {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+            AbsoluteThickness[1.6], 
+            LineBox[{{1., 0.009792927047864757}, {10., 0.27004337334894}, {
+             20., 0.3175803769695262}, {200., 0.6260054987633691}, {500., 
+             0.529986458359521}, {1000., 0.5770885690540513}, {2000., 
+             0.6080965471542825}, {5000., 0.6306364506545024}, {10000., 
+             0.7288880569269501}, {15000., 0.6667313737430601}, {20000., 
+             0.7213877767466791}, {25000., 
+             0.6603262651648248}}]}}}}}, {}, {}, {{}, {}}, {{}, {}}},
       AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
       Axes->{True, True},
       AxesLabel->{None, None},
@@ -1180,16 +1180,16 @@ Cell[BoxData[
          Scaled[0.02], 
          Scaled[0.02]}},
       Ticks->{Automatic, Automatic}], 
-     GraphicsBox[{{}, {{{}, {}, {
-          {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
-           AbsoluteThickness[1.6], 
-           LineBox[{{1., 0.07875615908705051}, {10., 0.4671303162439036}, {
-            20., 0.6131957725424639}, {200., 0.6199966088987193}, {500., 
-            0.6810707687352882}, {1000., 0.6637732219301502}, {2000., 
-            0.7680590214415828}, {5000., 0.7391601181126671}, {10000., 
-            0.7615746129626508}, {15000., 0.8434454785917471}, {20000., 
-            0.7864673752772632}, {25000., 
-            0.8543291365640007}}]}}}}, {}, {}, {{}, {}}, {{}, {}}},
+     GraphicsBox[{{}, {{{}, {}, {{
+           {RGBColor[0.65, 0., 0.], PointSize[0.019444444444444445`], 
+            AbsoluteThickness[1.6], 
+            LineBox[{{1., 0.07875615908705051}, {10., 0.4671303162439036}, {
+             20., 0.6131957725424639}, {200., 0.6199966088987193}, {500., 
+             0.6810707687352882}, {1000., 0.6637732219301502}, {2000., 
+             0.7680590214415828}, {5000., 0.7391601181126671}, {10000., 
+             0.7615746129626508}, {15000., 0.8434454785917471}, {20000., 
+             0.7864673752772632}, {25000., 
+             0.8543291365640007}}]}}}}}, {}, {}, {{}, {}}, {{}, {}}},
       AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
       Axes->{True, True},
       AxesLabel->{None, None},
@@ -16453,7 +16453,7 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"SlideShowHeader", 944378, 16446}
+ {"SlideShowHeader", 944444, 16446}
  }
 *)
 (*NotebookFileOutline
@@ -16496,122 +16496,122 @@ Cell[37927, 845, 214, 4, 65, "Chapter", "ExpressionUUID" -> \
 Cell[CellGroupData[{
 Cell[38166, 853, 3550, 83, 327, "Code", "ExpressionUUID" -> \
 "0ce89eb9-5534-48c5-8b80-a123fd4b4bae"],
-Cell[41719, 938, 12484, 298, 636, "Output", "ExpressionUUID" -> \
+Cell[41719, 938, 12550, 298, 636, "Output", "ExpressionUUID" -> \
 "d6283980-0e5b-4f4f-98fe-e172ac71dd10"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[54252, 1242, 322, 5, 65, "Chapter", "ExpressionUUID" -> \
+Cell[54318, 1242, 322, 5, 65, "Chapter", "ExpressionUUID" -> \
 "0bff26d0-419c-47ee-95ce-de8ac76f2f69"],
-Cell[54577, 1249, 1140, 31, 231, "Code", "ExpressionUUID" -> \
+Cell[54643, 1249, 1140, 31, 231, "Code", "ExpressionUUID" -> \
 "fd927851-ea59-48d5-ab2f-31339845259b"],
-Cell[55720, 1282, 4972, 122, 423, "Code", "ExpressionUUID" -> \
+Cell[55786, 1282, 4972, 122, 423, "Code", "ExpressionUUID" -> \
 "6a67638c-7878-4cc4-8e3b-048ee2dab096"],
 Cell[CellGroupData[{
-Cell[60717, 1408, 1096, 24, 103, "Code", "ExpressionUUID" -> \
+Cell[60783, 1408, 1096, 24, 103, "Code", "ExpressionUUID" -> \
 "fc5e7f3f-f850-4833-afd6-e6d5037df11e"],
-Cell[61816, 1434, 1994, 52, 382, "Output", "ExpressionUUID" -> \
+Cell[61882, 1434, 1994, 52, 368, "Output", "ExpressionUUID" -> \
 "2edc35b1-21d6-4652-897c-ddd2f10b5550"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[63847, 1491, 1291, 27, 103, "Code", "ExpressionUUID" -> \
+Cell[63913, 1491, 1291, 27, 103, "Code", "ExpressionUUID" -> \
 "36063dc1-6531-4ee3-981d-7cf32c0381d2"],
-Cell[65141, 1520, 1869, 50, 382, "Output", "ExpressionUUID" -> \
+Cell[65207, 1520, 1869, 50, 368, "Output", "ExpressionUUID" -> \
 "2041addc-3fa3-47f6-b3af-e44456a14dfe"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[67047, 1575, 1242, 26, 103, "Code", "ExpressionUUID" -> \
+Cell[67113, 1575, 1242, 26, 103, "Code", "ExpressionUUID" -> \
 "6b1af3c4-204a-410f-915a-5611b5fbb037"],
-Cell[68292, 1603, 1997, 51, 382, "Output", "ExpressionUUID" -> \
+Cell[68358, 1603, 1997, 51, 368, "Output", "ExpressionUUID" -> \
 "ade03957-75be-425c-acda-8bfe1473056b"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[70326, 1659, 1340, 28, 103, "Code", "ExpressionUUID" -> \
+Cell[70392, 1659, 1340, 28, 103, "Code", "ExpressionUUID" -> \
 "67ad45ed-a10f-45b8-9e61-e5111d290940"],
-Cell[71669, 1689, 1877, 50, 382, "Output", "ExpressionUUID" -> \
+Cell[71735, 1689, 1877, 50, 368, "Output", "ExpressionUUID" -> \
 "db6e7ee1-f504-4df9-8d61-67c9e2fb3837"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[73583, 1744, 1291, 27, 103, "Code", "ExpressionUUID" -> \
+Cell[73649, 1744, 1291, 27, 103, "Code", "ExpressionUUID" -> \
 "33827f4c-bf73-485d-aa26-c6530584ea29"],
-Cell[74877, 1773, 1875, 50, 382, "Output", "ExpressionUUID" -> \
+Cell[74943, 1773, 1875, 50, 368, "Output", "ExpressionUUID" -> \
 "c1d54b5f-7980-492c-be49-8f3948bdcec2"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[76789, 1828, 1290, 27, 103, "Code", "ExpressionUUID" -> \
+Cell[76855, 1828, 1290, 27, 103, "Code", "ExpressionUUID" -> \
 "ad3c5f2f-02a4-4dc4-89ed-a6ab8889e78b"],
-Cell[78082, 1857, 1986, 54, 382, "Output", "ExpressionUUID" -> \
+Cell[78148, 1857, 1986, 54, 368, "Output", "ExpressionUUID" -> \
 "d87f052d-d412-46cc-8b72-fbb6a8115616"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[80117, 1917, 404, 6, 65, "Chapter", "ExpressionUUID" -> \
+Cell[80183, 1917, 404, 6, 65, "Chapter", "ExpressionUUID" -> \
 "e823c507-9be9-4ed5-8175-5711f673ee23"],
-Cell[80524, 1925, 1485, 35, 231, "Code", "ExpressionUUID" -> \
+Cell[80590, 1925, 1485, 35, 231, "Code", "ExpressionUUID" -> \
 "ba1a0225-7b85-4953-890b-e5ce1103fc5e"],
-Cell[82012, 1962, 5069, 123, 423, "Code", "ExpressionUUID" -> \
+Cell[82078, 1962, 5069, 123, 423, "Code", "ExpressionUUID" -> \
 "498540b6-94a7-4691-9697-831d099db1ee"],
 Cell[CellGroupData[{
-Cell[87106, 2089, 823, 21, 103, "Code", "ExpressionUUID" -> \
+Cell[87172, 2089, 823, 21, 103, "Code", "ExpressionUUID" -> \
 "88463392-84f4-4d4d-b176-283843534c2b"],
-Cell[87932, 2112, 1987, 55, 382, "Output", "ExpressionUUID" -> \
+Cell[87998, 2112, 1987, 55, 368, "Output", "ExpressionUUID" -> \
 "9af0f681-65ee-41fe-a526-7fcd3d874f83"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[89956, 2172, 773, 20, 103, "Code", "ExpressionUUID" -> \
+Cell[90022, 2172, 773, 20, 103, "Code", "ExpressionUUID" -> \
 "4d17108b-84d5-4c4b-8427-fefb8803cf98"],
-Cell[90732, 2194, 2014, 55, 382, "Output", "ExpressionUUID" -> \
+Cell[90798, 2194, 2014, 55, 368, "Output", "ExpressionUUID" -> \
 "a524089f-ee4a-4f96-8e32-d795c5580ca4"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[92783, 2254, 796, 20, 103, "Code", "ExpressionUUID" -> \
+Cell[92849, 2254, 796, 20, 103, "Code", "ExpressionUUID" -> \
 "a5c5d1e2-be50-48ac-a2fb-e2268e7dbe1b"],
-Cell[93582, 2276, 1913, 52, 382, "Output", "ExpressionUUID" -> \
+Cell[93648, 2276, 1913, 52, 368, "Output", "ExpressionUUID" -> \
 "6051dc8c-a05b-4d1a-a2e1-81207285441b"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[95532, 2333, 823, 21, 103, "Code", "ExpressionUUID" -> \
+Cell[95598, 2333, 823, 21, 103, "Code", "ExpressionUUID" -> \
 "90af6a9b-a794-45fc-89a5-2d62ff1bb66d"],
-Cell[96358, 2356, 1868, 50, 382, "Output", "ExpressionUUID" -> \
+Cell[96424, 2356, 1868, 50, 368, "Output", "ExpressionUUID" -> \
 "1e8cc7da-c5cf-4464-9223-23b805da5e2d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[98263, 2411, 1291, 27, 103, "Code", "ExpressionUUID" -> \
+Cell[98329, 2411, 1291, 27, 103, "Code", "ExpressionUUID" -> \
 "46e0390f-c1d3-44ee-b16a-e224c4c494ba"],
-Cell[99557, 2440, 1889, 51, 382, "Output", "ExpressionUUID" -> \
+Cell[99623, 2440, 1889, 51, 368, "Output", "ExpressionUUID" -> \
 "4afe7ff2-6c7c-4607-9724-45489ad46757"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[101483, 2496, 824, 21, 103, "Code", "ExpressionUUID" -> \
+Cell[101549, 2496, 824, 21, 103, "Code", "ExpressionUUID" -> \
 "abf7bd86-2799-46ee-b6fd-5d403ab6f6e9"],
-Cell[102310, 2519, 1822, 48, 382, "Output", "ExpressionUUID" -> \
+Cell[102376, 2519, 1822, 48, 368, "Output", "ExpressionUUID" -> \
 "6f76fb24-5172-49f3-b96c-0dc350a302b6"]
 }, Open  ]],
-Cell[104147, 2570, 816209, 13391, 443, 619517, 10166, "CachedBoxData", \
+Cell[104213, 2570, 816209, 13391, 443, 619517, 10166, "CachedBoxData", \
 "BoxData", "Input", "ExpressionUUID" -> \
 "d4bf71d4-d917-4645-9384-eafb4353648f"],
 Cell[CellGroupData[{
-Cell[920381, 15965, 308, 8, 103, "Code", "ExpressionUUID" -> \
+Cell[920447, 15965, 308, 8, 103, "Code", "ExpressionUUID" -> \
 "62079b43-18f8-4e98-b6d0-4c1b47dd636b"],
-Cell[920692, 15975, 200, 5, 47, "Output", "ExpressionUUID" -> \
+Cell[920758, 15975, 200, 5, 47, "Output", "ExpressionUUID" -> \
 "3cc3aa13-52a7-40dc-a962-6c17b1f724ed"],
-Cell[920895, 15982, 201, 5, 47, "Output", "ExpressionUUID" -> \
+Cell[920961, 15982, 201, 5, 47, "Output", "ExpressionUUID" -> \
 "9345057d-41a6-4035-bea6-fb45995bfe94"]
 }, Open  ]],
-Cell[921111, 15990, 291, 8, 70, "Code", "ExpressionUUID" -> \
+Cell[921177, 15990, 291, 8, 70, "Code", "ExpressionUUID" -> \
 "92926df7-b4fd-4ed3-b82d-a82663a88cc7"],
 Cell[CellGroupData[{
-Cell[921427, 16002, 249, 5, 103, "Code", "ExpressionUUID" -> \
+Cell[921493, 16002, 249, 5, 103, "Code", "ExpressionUUID" -> \
 "14dff40c-19d4-4109-b699-dc5d7dbb1fec"],
-Cell[921679, 16009, 7633, 142, 248, "Output", "ExpressionUUID" -> \
+Cell[921745, 16009, 7633, 142, 248, "Output", "ExpressionUUID" -> \
 "b62e646e-60bf-4a7a-8b00-28578e6153eb"],
-Cell[929315, 16153, 14053, 254, 254, "Output", "ExpressionUUID" -> \
+Cell[929381, 16153, 14053, 254, 254, "Output", "ExpressionUUID" -> \
 "f86fa0e3-892b-44bf-91ca-ff6e845702d2"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[943405, 16412, 348, 10, 70, "Code", "ExpressionUUID" -> \
+Cell[943471, 16412, 348, 10, 70, "Code", "ExpressionUUID" -> \
 "dd7f0086-4661-4de9-9cad-410409c674df"],
-Cell[943756, 16424, 190, 4, 47, "Output", "ExpressionUUID" -> \
+Cell[943822, 16424, 190, 4, 47, "Output", "ExpressionUUID" -> \
 "ff52b65d-8763-4962-869c-081ab1e8286b"]
 }, Open  ]]
 }, Open  ]]
